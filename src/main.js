@@ -4,7 +4,15 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+import OwUI from 'overwatch-ui'
+import 'overwatch-ui/dist/overwatch-ui.css'
+
+Vue.use(OwUI.plugins.$owAlert)
+
 new Vue({
-  router,
-  render: h => h(App)
+    components: {
+        ...OwUI.Components
+    },
+    router,
+    render: h => h(App)
 }).$mount('#app')
