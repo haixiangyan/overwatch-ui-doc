@@ -43,18 +43,17 @@
     width: 500px;
     height: 100vh;
     background: transparent;
-    padding-left: 50px;
+    padding-left: 3vw;
 
     .nav-logo {
         margin-top: 4vh;
         width: 90%;
     }
 
-
     .doc-board {
         position: absolute;
         width: 80%;
-        bottom: 6vh;
+        bottom: 4vh;
     }
 }
 </style>

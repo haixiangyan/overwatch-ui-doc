@@ -1,6 +1,5 @@
 <template>
     <div class="">
-        Intro
         <doc-post></doc-post>
     </div>
 </template>
