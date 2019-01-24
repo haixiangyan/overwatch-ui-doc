@@ -17,7 +17,7 @@ export default {
     },
     getMessages(callback) {
         const query = new AV.Query('Message');
-        query.descending('createdAt');
+        query.ascending('createdAt');
         query.limit(10);
         query.find().then((messages) => {
             callback(messages)
