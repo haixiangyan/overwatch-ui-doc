@@ -1,12 +1,21 @@
 <template>
     <div class="doc-board-wrapper">
-        <ul class="board">
-            <li v-for="message in messages" :key="message.id">[Note]: {{message.content}}</li>
-        </ul>
+        <transition name="fade">
+            <ul ref="board" v-show="isShow" class="board">
+                <li v-for="message in messages" :key="message.id">[Note]: {{message.content}}</li>
+            </ul>
+        </transition>
 
         <div class="input-wrapper">
             <span>[Note]: </span>
-            <input class="input" placeholder="Leave me a message!" type="text">
+            <input
+                v-model="newMessage"
+                @focus="onFocus"
+                @blur="isShow = false"
+                @keyup.enter="addNewMessage"
+                class="input"
+                placeholder="Leave me a message!"
+                type="text">
         </div>
     </div>
 </template>
@@ -16,6 +25,8 @@
         name: "DocBoard",
         data() {
             return {
+                isShow: false,
+                newMessage: '',
                 messages: [
                     { id: 1, content: 'Hello World' },
                     { id: 2, content: 'Hello World' },
@@ -28,6 +39,26 @@
                     { id: 9, content: 'Hello World' },
                     { id: 10, content: 'Hello World' },
                 ]
+            }
+        },
+        methods: {
+            onFocus() {
+                this.isShow = true
+
+                this.scrollToBottom()
+            },
+            addNewMessage() {
+                this.messages.push({
+                    id: this.messages.length + 1,
+                    content: this.newMessage
+                })
+
+                this.scrollToBottom()
+            },
+            scrollToBottom() {
+                this.$nextTick(() => {
+                    this.$refs.board.scrollTop = this.$refs.board.scrollHeight;
+                })
             }
         }
     }

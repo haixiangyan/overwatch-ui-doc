@@ -41,6 +41,7 @@
 
 <style scoped lang="scss">
 .doc-nav-wrapper {
+    position: relative;
     width: 500px;
     height: 100vh;
     background: transparent;
@@ -90,8 +91,9 @@
     }
 
     .doc-board {
+        position: absolute;
         width: 80%;
-        margin-top: 8vh;
+        bottom: 6vh;
     }
 }
 </style>
