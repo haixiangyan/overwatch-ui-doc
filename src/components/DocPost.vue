@@ -10,12 +10,18 @@
         <section v-for="section in doc.sections">
             <h1 v-if="section.h1">{{section.h1}}</h1>
             <h2 v-if="section.h2">{{section.h2}}</h2>
-            <div v-if="section.desc">{{section.desc}}</div>
+            <p v-if="section.desc">{{section.desc}}</p>
+            <pre ref="codeblock" v-if="section.codes">
+                {{section.codes}}
+            </pre>
         </section>
     </div>
 </template>
 
 <script>
+    import hljs from 'highlight.js'
+    import 'highlight.js/styles/github.css'
+
     export default {
         name: "DocPost",
         props: {
@@ -23,6 +29,9 @@
                 type: Object,
                 required: true
             }
+        },
+        mounted() {
+            hljs.highlightBlock(this.$refs.codeblock[0])
         },
         methods: {
             jumpToGithub() {
@@ -34,7 +43,6 @@
 
 <style scoped lang="scss">
 .doc-post {
-    display: flex;
     position: relative;
     padding: 10px 20px;
     margin: 1vh 3vw 1vh 0;
@@ -90,6 +98,14 @@
         }
         h1 {
             font-size: 2em;
+        }
+        p {
+            margin-bottom: 16px;
+        }
+        pre {
+            padding: 16px;
+            background: rgba(248, 256, 255, 0.8);
+            border-radius: $--border-radius-base;
         }
     }
 }
