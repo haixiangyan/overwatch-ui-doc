@@ -1,7 +1,7 @@
 <template>
     <div class="doc-post">
         <div class="author">
-            <img class="add-button" src="../assets/images/add-friend.png" alt="Add">
+            <img @click="jumpToGithub" class="add-button" src="../assets/images/add-friend.png" alt="Add">
             <span class="author-info-wrapper">
                 <img class="avatar" src="../assets/images/avatar.png" alt="Avatar">
                 <span class="name">HAIXIANG</span>
@@ -22,6 +22,11 @@
             doc: {
                 type: Object,
                 required: true
+            }
+        },
+        methods: {
+            jumpToGithub() {
+                window.location.href = 'https://github.com/Haixiang6123'
             }
         }
     }

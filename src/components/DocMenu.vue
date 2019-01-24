@@ -4,7 +4,8 @@
             <router-link class="main-item" :to="menuItem.url">{{menuItem.title}}</router-link>
         </li>
         <li v-for="menuItem in menu.subItems" :key="menuItem.title" class="sub-item-wrapper">
-            <router-link class="sub-item" :to="menuItem.url">{{menuItem.title}}</router-link>
+            <a class="sub-item" v-if="menuItem.url.startsWith('http')" :href="menuItem.url">{{menuItem.title}}</a>
+            <router-link v-else class="sub-item" :to="menuItem.url">{{menuItem.title}}</router-link>
         </li>
     </ul>
 </template>
