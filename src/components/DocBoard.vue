@@ -2,11 +2,11 @@
     <div class="doc-board-wrapper">
         <transition name="fade">
             <ul ref="board" v-show="isShow" class="board">
-                <li v-for="message in messages" :key="message.id">[Note]: {{message.content}}</li>
+                <li v-for="message in messages" :key="message.id">[Note]: {{message.attributes.content}}</li>
             </ul>
         </transition>
 
-        <div class="input-wrapper">
+        <div class="input-wrapper" :class="inputWrapperClasses">
             <span>[Note]: </span>
             <input
                 v-model="newMessage"
@@ -21,25 +21,25 @@
 </template>
 
 <script>
+    import DB from '../db/index'
     export default {
         name: "DocBoard",
         data() {
             return {
                 isShow: false,
                 newMessage: '',
-                messages: [
-                    { id: 1, content: 'Hello World' },
-                    { id: 2, content: 'Hello World' },
-                    { id: 3, content: 'Hello World' },
-                    { id: 4, content: 'Hello World' },
-                    { id: 5, content: 'Hello World' },
-                    { id: 6, content: 'Hello World' },
-                    { id: 7, content: 'Hello World' },
-                    { id: 8, content: 'Hello World' },
-                    { id: 9, content: 'Hello World' },
-                    { id: 10, content: 'Hello World' },
-                ]
+                messages: []
             }
+        },
+        computed: {
+            inputWrapperClasses() {
+                return {'input-wrapper-active': this.isShow}
+            }
+        },
+        mounted() {
+            DB.getMessages((messages) => {
+                this.messages = messages
+            })
         },
         methods: {
             onFocus() {
@@ -48,10 +48,19 @@
                 this.scrollToBottom()
             },
             addNewMessage() {
+                // Send new message to server
+                DB.addMessage(this.newMessage)
+
+                // Add new message locally
+                console.log(this.newMessage)
                 this.messages.push({
-                    id: this.messages.length + 1,
-                    content: this.newMessage
+                    id: Date.now(),
+                    attributes: {
+                        content: this.newMessage
+                    }
                 })
+
+                this.newMessage = ''
 
                 this.scrollToBottom()
             },
@@ -69,7 +78,7 @@
     .board, .input-wrapper {
         border-radius: $--border-radius-base;
         color: #26AEE6;
-        background: rgba(0, 0, 0, 0.5);
+        background: rgba(0, 0, 0, 0.7);
     }
 
     .board {
@@ -84,6 +93,12 @@
         align-items: center;
         margin-top: 6px;
         height: 32px;
+        opacity: $--less-opacity;
+        transition: opacity .3s;
+
+        &-active, &:hover {
+            opacity: 1;
+        }
 
         .input {
             padding-left: 4px;

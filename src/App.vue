@@ -17,9 +17,13 @@
 </template>
 
 <script>
+    import DB from './db/index'
     import DocNav from './components/DocNav'
     export default {
         name: 'App',
+        created() {
+            DB.init()
+        },
         components: {
             DocNav
         }
