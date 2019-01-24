@@ -1,15 +1,16 @@
 <template>
     <div class="home">
-        home
+        <doc></doc>
     </div>
 </template>
 
 <script>
-    // @ is an alias to /src
+    import Doc from '../components/DocPost'
 
     export default {
         name: 'home',
         components: {
+            Doc
         }
     }
 </script>
