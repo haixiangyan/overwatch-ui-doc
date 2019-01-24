@@ -24,12 +24,18 @@
                 <router-link class="sub-item" to="/">HIGHLIGHTS</router-link>
             </li>
         </ul>
+
+        <doc-board class="doc-board"></doc-board>
     </div>
 </template>
 
 <script>
+    import DocBoard from './DocBoard'
     export default {
-        name: "Nav"
+        name: "DocNav",
+        components: {
+            DocBoard
+        }
     }
 </script>
 
@@ -46,7 +52,7 @@
     }
 
     .items {
-        margin-top: 8vh;
+        margin-top: 4vh;
         width: 100%;
         > li {
             display: flex;
@@ -81,6 +87,11 @@
                 }
             }
         }
+    }
+
+    .doc-board {
+        width: 80%;
+        margin-top: 8vh;
     }
 }
 </style>

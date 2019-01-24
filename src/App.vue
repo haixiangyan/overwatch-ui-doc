@@ -1,9 +1,11 @@
 <template>
     <div id="app">
         <ow-layout>
+            <!--Left hand side nav-->
             <ow-sider>
                 <doc-nav></doc-nav>
             </ow-sider>
+            <!--Right hand side documents-->
             <ow-layout>
                 <ow-content>
                     <router-view></router-view>
