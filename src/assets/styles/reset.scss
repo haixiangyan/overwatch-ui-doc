@@ -1,0 +1,34 @@
+// Reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: url(https://cdn.discordapp.com/attachments/303406782104207362/315839175406649345/Overwatch.cur), auto;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+li, ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+// Font
+@font-face {
+  font-family: overwatch;
+  src: url(https://us.battle.net/forums/static/fonts/f014015d/f014015d.woff);
+}
+
+@font-face {
+  font-family: overwatch-italic;
+  src: url(https://us.battle.net/forums/static/fonts/bignoodletoo/bignoodletoo.woff);
+}

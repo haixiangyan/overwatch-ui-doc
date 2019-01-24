@@ -1,0 +1,76 @@
+/* Center
+-------------------------- */
+@mixin hvFlexCenterMx($flexType) {
+  display: $flexType;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Types
+-------------------------- */
+$typeList: primary, warning, danger, info;
+
+/* Grid System
+-------------------------- */
+@mixin gridSpans($class) {
+  @for $n from 0 through 24 {
+    .ow-col.#{$class}-#{$n} {
+      width: ($n / 24) * 100%;
+    }
+  }
+}
+
+@mixin gridPcSpans() {
+  @include gridSpans(ow-col-pc)
+}
+
+@mixin gridPhoneSpans() {
+  @include gridSpans(ow-col-phone);
+}
+
+@mixin gridTabletSpans() {
+  @include gridSpans(ow-col-tablet);
+}
+
+// Offset
+@mixin gridOffsets($class) {
+  @for $n from 0 through 24 {
+    .ow-col.#{$class}-#{$n} {
+      margin-left: ($n / 24) * 100%;
+    }
+  }
+}
+
+@mixin gridPcOffsets() {
+  @include gridOffsets(ow-col-pc-offset);
+}
+
+@mixin gridPhoneOffsets() {
+  @include gridOffsets(ow-col-phone-offset);
+}
+
+@mixin gridTabletOffsets() {
+  @include gridOffsets(ow-col-tablet-offset);
+}
+
+// Responsive
+@mixin phone {
+  // 0 -> Infinite
+  @media all {
+    @content;
+  }
+}
+
+@mixin tablet {
+  // 577 -> Infinite
+  @media (min-width: 577px) {
+    @content;
+  }
+}
+
+@mixin pc {
+  // 1025 -> Infinite
+  @media (min-width: 1025px) {
+    @content;
+  }
+}

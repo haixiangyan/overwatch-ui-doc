@@ -1,5 +1,5 @@
 <template>
-    <div id="app">
+    <div id="app2">
         <h1>Tabs</h1>
         <div class="item">
             <ow-tabs :selected="selectedTab">
@@ -243,10 +243,8 @@
     }
 </script>
 
-<style lang="scss">
-    #app {
-        padding: 20px 150px;
-        background: url("../assets/images/ow-bg.jpg") center center;
+<style scoped lang="scss">
+    #app2 {
         .item {
             display: flex;
             margin: 30px 0;
