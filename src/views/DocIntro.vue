@@ -1,5 +1,5 @@
 <template>
-    <div class="">
+    <div class="doc-intro">
         <doc-post :doc="doc"></doc-post>
     </div>
 </template>

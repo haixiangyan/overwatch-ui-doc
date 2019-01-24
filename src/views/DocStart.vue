@@ -1,7 +1,7 @@
 <template>
-  <div class="about">
-      Start
-  </div>
+    <div class="doc-start">
+        <doc-post :doc="doc"></doc-post>
+    </div>
 </template>
 
 <script>
@@ -9,6 +9,19 @@
 
     export default {
         name: 'DocIntro',
+        data() {
+            return {
+                doc: {
+                    sections: [
+                        {
+                            h1: 'Overwatch UI',
+                            h2: 'Start',
+                            desc: 'Building...'
+                        }
+                    ]
+                }
+            }
+        },
         components: {
             DocPost
         }
