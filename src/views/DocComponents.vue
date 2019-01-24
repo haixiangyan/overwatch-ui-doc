@@ -1,10 +1,12 @@
 <template>
-    <div class="doc-components"></div>
+    <div class="doc-components">
+        Components
+    </div>
 </template>
 
 <script>
     export default {
-        name: "doc-components"
+        name: "DocComponents"
     }
 </script>
 

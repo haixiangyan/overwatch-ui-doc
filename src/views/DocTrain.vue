@@ -1,5 +1,7 @@
 <template>
-    <div class="doc-train"></div>
+    <div class="doc-train">
+        Train
+    </div>
 </template>
 
 <script>

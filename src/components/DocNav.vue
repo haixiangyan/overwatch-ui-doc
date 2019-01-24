@@ -18,9 +18,9 @@
                 menu: {
                     mainItems: [
                         {title: 'INTRO', url: '/'},
-                        {title: 'START', url: '/'},
-                        {title: 'TRAINING', url: '/'},
-                        {title: 'COMPONENTS', url: '/'},
+                        {title: 'START', url: '/start'},
+                        {title: 'TRAINING', url: '/train'},
+                        {title: 'COMPONENTS', url: '/components'},
                     ],
                     subItems: [
                         {title: 'GITHUB', url: '/'},
