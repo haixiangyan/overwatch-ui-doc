@@ -1,6 +1,6 @@
 <template>
     <div class="">
-        <doc-post></doc-post>
+        <doc-post :doc="doc"></doc-post>
     </div>
 </template>
 
@@ -9,6 +9,19 @@
 
     export default {
         name: 'DocIntro',
+        data() {
+            return {
+                doc: {
+                    sections: [
+                        {
+                            h1: 'Overwatch UI',
+                            h2: 'Intro',
+                            desc: 'A UI library of game Overwatch, built with Vue.js.'
+                        }
+                    ]
+                }
+            }
+        },
         components: {
             DocPost
         }
