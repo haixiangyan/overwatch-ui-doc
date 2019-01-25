@@ -2,8 +2,12 @@
     <div class="doc-nav-wrapper">
         <img class="nav-logo" src="../../assets/images/logo.png" alt="Logo">
 
-        <doc-menu v-if="!isShowSubMenu"></doc-menu>
-        <doc-sub-menu v-else></doc-sub-menu>
+        <transition name="fade">
+            <doc-menu class="doc-menu" v-if="!isShowSubMenu"></doc-menu>
+        </transition>
+        <transition name="fade">
+            <doc-sub-menu class="doc-sub-menu" v-if="isShowSubMenu"></doc-sub-menu>
+        </transition>
 
         <doc-board class="doc-board"></doc-board>
     </div>
@@ -21,10 +25,14 @@
                 isShowSubMenu: false
             }
         },
+        mounted() {
+            if (/components*/.test(this.$route.name)) {
+                this.isShowSubMenu = true
+            }
+        },
         watch: {
             $route(route) {
-                console.log('jjjjj', route)
-                this.isShowSubMenu = route.name === 'components';
+                this.isShowSubMenu = /components*/.test(route.name);
             }
         },
         components: {
@@ -48,6 +56,12 @@
     .nav-logo {
         margin-top: 2vh;
         width: 25vw;
+    }
+
+    .doc-menu, .doc-sub-menu {
+        position: absolute;
+        left: 3vw;
+        top: 12vh;
     }
 
     .doc-board {
