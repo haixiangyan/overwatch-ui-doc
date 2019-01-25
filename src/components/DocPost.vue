@@ -14,7 +14,7 @@
 
 <script>
     import hljs from 'highlight.js'
-    import 'highlight.js/styles/github.css'
+    import 'highlight.js/styles/atom-one-light.css'
     import '../assets/styles/markdown.css'
 
     export default {
@@ -26,7 +26,7 @@
             }
         },
         mounted() {
-            // hljs.highlightBlock(this.$refs.codeblock[0])
+            hljs.initHighlighting()
         },
         methods: {
             jumpToGithub() {
