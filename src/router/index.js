@@ -7,6 +7,7 @@ import DocTrain from '../views/DocTrain'
 // Sub menu
 import DocButton from '../views/subViews/DocButton'
 import DocLayout from '../views/subViews/DocLayout'
+import DocGrid from '../views/subViews/DocGrid'
 
 Vue.use(Router)
 
@@ -36,6 +37,11 @@ const router = new Router({
             path: '/components/layout',
             name: 'layout',
             component: DocLayout
+        },
+        {
+            path: '/components/grid',
+            name: 'grid',
+            component: DocGrid
         },
     ]
 })
