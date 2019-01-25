@@ -11,6 +11,7 @@ import DocGrid from '../views/subViews/DocGrid'
 import DocTabs from '../views/subViews/DocTabs'
 import DocIcon from '../views/subViews/DocIcon'
 import DocInput from '../views/subViews/DocInput'
+import DocCollapse from '../views/subViews/DocCollapse'
 
 Vue.use(Router)
 
@@ -60,6 +61,11 @@ const router = new Router({
             path: '/components/input',
             name: 'input',
             component: DocInput
+        },
+        {
+            path: '/components/collapse',
+            name: 'collapse',
+            component: DocCollapse
         },
     ]
 })
