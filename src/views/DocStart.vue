@@ -42,108 +42,14 @@ Vue.use(OwUI.plugins.$owAlert)</code>
                 <ow-button class="demo-button" type="success">Success</ow-button>
                 <ow-button class="demo-button" type="warning">Warning</ow-button>
                 <ow-button class="demo-button" type="danger">Danger</ow-button>
-            </div>
 
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
-            <p>Now, let's place some components in your Web APP!</p>
+                <ow-popover position="top">
+                    <template slot="content">
+                        <div>Hello, Overwatch UI!</div>
+                    </template>
+                    <ow-button>Pop It!</ow-button>
+                </ow-popover>
+            </div>
         </doc-post>
     </div>
 </template>
@@ -160,7 +66,14 @@ Vue.use(OwUI.plugins.$owAlert)</code>
 <ow-button type="primary">Primary</ow-button>
 <ow-button type="success">Success</ow-button>
 <ow-button type="warning">Warning</ow-button>
-<ow-button type="danger">Danger</ow-button>`
+<ow-button type="danger">Danger</ow-button>
+
+<ow-popover position="top">
+    <template slot="content">
+        <div>Hello, Overwatch UI!</div>
+    </template>
+    <ow-button>Pop It!</ow-button>
+</ow-popover>`
             }
         },
         components: {

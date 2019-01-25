@@ -1,5 +1,7 @@
 <template>
     <div id="app">
+        <!--Background-->
+        <img class="background" src="./assets/images/bg.jpg" alt="background">
         <ow-layout>
             <!--Left hand side nav-->
             <ow-sider>
@@ -32,6 +34,9 @@
 
 <style lang="scss">
     #app {
-        background: url("./assets/images/bg.jpg") center center;
+        .background {
+            position: fixed;
+            width: 100vw;
+        }
     }
 </style>
