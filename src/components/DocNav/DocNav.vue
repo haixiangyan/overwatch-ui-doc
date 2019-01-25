@@ -2,7 +2,7 @@
     <div class="doc-nav-wrapper">
         <img class="nav-logo" src="../../assets/images/logo.png" alt="Logo">
 
-        <doc-menu v-if="!isShowSubMenu" :isShowSubMenu.sync="isShowSubMenu"></doc-menu>
+        <doc-menu v-if="!isShowSubMenu"></doc-menu>
         <doc-sub-menu v-else></doc-sub-menu>
 
         <doc-board class="doc-board"></doc-board>
@@ -19,6 +19,12 @@
         data() {
             return {
                 isShowSubMenu: false
+            }
+        },
+        watch: {
+            $route(route) {
+                console.log('jjjjj', route)
+                this.isShowSubMenu = route.name === 'components';
             }
         },
         components: {
