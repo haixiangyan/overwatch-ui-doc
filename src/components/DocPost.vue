@@ -11,9 +11,12 @@
             <slot></slot>
         </section>
         <footer>
-            <div class="endorse-wrapper">
-                <img src="../assets/images/endorse.jpeg" alt="endorse-me">
-                <span>ENDORSE AUTHOR</span>
+            <div @click="isShowPayQR = !isShowPayQR" @mouseleave="isShowPayQR = false" class="endorse-wrapper">
+                <transition name="fade">
+                    <img v-if="isShowPayQR" class="payQR" src="../assets/images/wechatQR.jpeg" alt="payQR">
+                </transition>
+                <span class="icon">$</span>
+                <span class="text">ENDORSE AUTHOR</span>
             </div>
         </footer>
     </div>
@@ -26,6 +29,11 @@
 
     export default {
         name: "DocPost",
+        data() {
+            return {
+                isShowPayQR: false
+            }
+        },
         mounted() {
             this.highlight()
         },
@@ -103,6 +111,7 @@
         display: flex;
         justify-content: center;
         .endorse-wrapper {
+            position: relative;
             display: inline-flex;
             justify-content: center;
             align-items: center;
@@ -111,28 +120,37 @@
             transition: all .3s;
             border-top-left-radius: 6px;
             border-top-right-radius: 6px;
+            font-family: overwatch,serif;
 
-            img {
+            .payQR {
+                bottom: calc(100% + 2px);
+                position: absolute;
+            }
+
+            .icon {
+                @include hvFlexCenterMx(inline-flex);
                 width: 40px;
                 height: 40px;
+                background: #3AB2B7;
+                color: $--color-white;
+                font-size: 1.2em;
                 border-top-left-radius: $--border-radius-base;
             }
 
-            span {
+            .text {
                 display: inline-flex;
                 height: 40px;
                 align-items: center;
                 padding: 0 30px;
                 background: rgba(0, 0, 0, 0.6);
                 color: $--color-white;
-                font-family: overwatch,serif;
                 border-top-right-radius: $--border-radius-base;
                 transition: all .3s;
             }
 
             &:hover {
-                border-color: rgba(0, 0, 0, 0.6);
-                span {
+                border-color: rgba(0, 0, 0, 0.4);
+                .text {
                     background: $--color-white;
                     color: rgba(0, 0, 0, 0.5);
                 }
