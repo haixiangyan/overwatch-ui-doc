@@ -7,7 +7,8 @@
                 <span class="name">HAIXIANG</span>
             </span>
         </div>
-        <section data-doc class="markdown-body" v-html="doc">
+        <section ref="markdownDoc" data-doc class="markdown-body">
+            <slot></slot>
         </section>
     </div>
 </template>
@@ -19,18 +20,20 @@
 
     export default {
         name: "DocPost",
-        props: {
-            doc: {
-                type: String,
-                required: true
-            }
-        },
+        props: ['name'],
         mounted() {
-            hljs.initHighlighting()
+            this.highlight()
         },
         methods: {
             jumpToGithub() {
                 window.location.href = 'https://github.com/Haixiang6123'
+            },
+            highlight() {
+                let blocks = this.$refs.markdownDoc.querySelectorAll('pre code')
+
+                blocks.forEach((block) => {
+                    hljs.highlightBlock(block)
+                })
             }
         }
     }
