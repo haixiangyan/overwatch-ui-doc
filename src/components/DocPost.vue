@@ -7,7 +7,7 @@
                 <span class="name">HAIXIANG</span>
             </span>
         </div>
-        <section v-html="doc">
+        <section data-doc class="markdown-body" v-html="doc">
         </section>
     </div>
 </template>
@@ -15,6 +15,7 @@
 <script>
     import hljs from 'highlight.js'
     import 'highlight.js/styles/github.css'
+    import '../assets/styles/markdown.css'
 
     export default {
         name: "DocPost",
@@ -25,7 +26,7 @@
             }
         },
         mounted() {
-            hljs.highlightBlock(this.$refs.codeblock[0])
+            // hljs.highlightBlock(this.$refs.codeblock[0])
         },
         methods: {
             jumpToGithub() {
@@ -42,18 +43,17 @@
     margin: 1vh 3vw 1vh 0;
     height: 98vh;
     overflow: auto;
-    background: rgba(245, 237, 221, 0.95);
-    color: #2f3e4e;
+    background: rgba(252, 246, 229, 0.95);
 
     .author {
         display: flex;
-        position: absolute;
-        top: 0;
-        right: 0;
+        position: fixed;
+        top: 1vh;
+        right: 3vw;
 
         .add-button {
-            height: 25px;
-            width: 25px;
+            height: 50px;
+            width: 50px;
             margin-right: 5px;
             transition: all .3s;
             &:hover {
@@ -79,27 +79,15 @@
                 padding: 0 50px 0 10px;
             }
             .avatar {
-                height: 25px;
-                width: 25px;
+                height: 50px;
+                width: 50px;
             }
         }
     }
-    
-    section {
-        h1, h2 {
-            padding-bottom: .3em;
-            margin-bottom: 16px;
-        }
-        h1 {
-            font-size: 2em;
-        }
-        p {
-            margin-bottom: 16px;
-        }
-        pre {
-            padding: 16px;
-            background: rgba(248, 256, 255, 0.8);
-            border-radius: $--border-radius-base;
+
+    .markdown-body[data-doc] {
+        > h1, h2, h3 {
+            border-color: #2f3e4e;
         }
     }
 }
