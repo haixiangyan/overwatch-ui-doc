@@ -62,6 +62,7 @@
         position: absolute;
         left: 3vw;
         top: 12vh;
+        width: 25vw;
     }
 
     .doc-board {

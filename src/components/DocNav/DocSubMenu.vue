@@ -62,6 +62,8 @@
 <style scoped lang="scss">
 .doc-sub-menu {
     overflow: auto;
+    height: 75vh;
+    box-shadow: 0px 20px 20px -20px rgba(255,255,255,0.75);
     .types {
         margin-bottom: 20px;
         .main-item-wrapper {
