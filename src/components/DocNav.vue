@@ -39,7 +39,9 @@
 
 <style scoped lang="scss">
 .doc-nav-wrapper {
-    position: relative;
+    position: fixed;
+    left: 0;
+    top: 0;
     width: 500px;
     height: 100vh;
     background: transparent;

@@ -1,6 +1,6 @@
 <template>
     <div class="doc-intro">
-        <doc-post name="intro">
+        <doc-post>
             <h1>Overwatch UI</h1>
             <!--badges-->
             <img class="badge" src="https://camo.githubusercontent.com/a50c2d62e9116a9b23e760dbb18d507074e21ba1/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f75692d2d6c69622d6f76657277617463682d4646433432392e737667" alt="badge">

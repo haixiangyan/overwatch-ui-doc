@@ -3,7 +3,7 @@
         <ow-layout>
             <!--Left hand side nav-->
             <ow-sider>
-                <doc-nav></doc-nav>
+                <doc-nav class="doc-nav"></doc-nav>
             </ow-sider>
             <!--Right hand side documents-->
             <ow-layout>

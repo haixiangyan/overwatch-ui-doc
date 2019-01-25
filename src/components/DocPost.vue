@@ -20,7 +20,6 @@
 
     export default {
         name: "DocPost",
-        props: ['name'],
         mounted() {
             this.highlight()
         },
@@ -43,15 +42,14 @@
 .doc-post {
     position: relative;
     padding: 10px 20px;
-    margin: 1vh 3vw 1vh 0;
-    height: 98vh;
-    overflow: auto;
+    margin: 2vh 3vw 2vh auto;
+    width: 70vw;
     background: rgba(252, 246, 229, 0.95);
 
     .author {
         display: flex;
         position: fixed;
-        top: 1vh;
+        top: 4vh;
         right: 3vw;
 
         .add-button {
