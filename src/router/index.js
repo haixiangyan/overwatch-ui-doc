@@ -13,6 +13,7 @@ import DocIcon from '../views/subViews/DocIcon'
 import DocInput from '../views/subViews/DocInput'
 import DocCollapse from '../views/subViews/DocCollapse'
 import DocAlert from '../views/subViews/DocAlert'
+import DocPopover from '../views/subViews/DocPopover'
 
 Vue.use(Router)
 
@@ -72,6 +73,11 @@ const router = new Router({
             path: '/components/alert',
             name: 'alert',
             component: DocAlert
+        },
+        {
+            path: '/components/popover',
+            name: 'popover',
+            component: DocPopover
         },
     ]
 })
