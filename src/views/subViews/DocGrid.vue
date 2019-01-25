@@ -45,7 +45,7 @@
                 </ow-row>
             </div>
             <pre>
-                <code class="html">{{sample.withGutter}}</code>
+                <code class="html">{{sample.gutter}}</code>
             </pre>
 
             <!--Span and Offset-->
@@ -65,7 +65,7 @@
                 </ow-row>
             </div>
             <pre>
-                <code class="html">{{sample.withSpanAndOffset}}</code>
+                <code class="html">{{sample.spanAndOffset}}</code>
             </pre>
 
             <!--Responsive-->

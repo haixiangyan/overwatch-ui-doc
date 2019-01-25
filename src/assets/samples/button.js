@@ -1,29 +1,29 @@
 export default {
-    withType: `
+    type: `
 <ow-button type="primary">Primary</ow-button>
 <ow-button type="warning">Warning</ow-button>
 <ow-button type="info">Info</ow-button>
 <ow-button type="danger">Danger</ow-button>`,
-    withIcon: `
+    icon: `
 <ow-button type="primary" icon-name="setting">Setting</ow-button>
 <ow-button type="danger" icon-name="remove">Remove</ow-button>`,
-    withIconPosition: `
+    iconPosition: `
 <ow-button icon-name="up" icon-position="left">Up</ow-button>
 <ow-button icon-name="down" icon-position="right">Down</ow-button>`,
-    withLoading: `
+    loading: `
 <ow-button
     icon-name="loading"
     :is-loading="true">
     Loading...
 </ow-button>`,
-    withEvent: `
+    event: `
 <ow-button
     @click="isLoading = !isLoading"
     icon-name="loading"
     :is-loading="isLoading">
     Loading...
 </ow-button>`,
-    withGroup: `
+    group: `
 <ow-button-group>
     <ow-button icon-name="add" type="primary" icon-position="left">
         More

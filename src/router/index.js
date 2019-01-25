@@ -8,6 +8,7 @@ import DocTrain from '../views/DocTrain'
 import DocButton from '../views/subViews/DocButton'
 import DocLayout from '../views/subViews/DocLayout'
 import DocGrid from '../views/subViews/DocGrid'
+import DocTabs from '../views/subViews/DocTabs'
 
 Vue.use(Router)
 
@@ -42,6 +43,11 @@ const router = new Router({
             path: '/components/grid',
             name: 'grid',
             component: DocGrid
+        },
+        {
+            path: '/components/tabs',
+            name: 'tabs',
+            component: DocTabs
         },
     ]
 })

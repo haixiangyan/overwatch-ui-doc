@@ -30,7 +30,7 @@
                 </ow-layout>
             </div>
             <pre>
-                <code class="html">{{sample.withOuterSider}}</code>
+                <code class="html">{{sample.outerSider}}</code>
             </pre>
 
             <p>Adding sider in another way.</p>
@@ -45,7 +45,7 @@
                 </ow-layout>
             </div>
             <pre>
-                <code class="html">{{sample.withInnerSider}}</code>
+                <code class="html">{{sample.innerSider}}</code>
             </pre>
 
             <p>You can also toggle sider with props visible.</p>
@@ -63,10 +63,11 @@
                 </ow-layout>
             </div>
             <pre>
-                <code class="html">{{sample.withToggle}}</code>
+                <code class="html">{{sample.toggle}}</code>
             </pre>
 
-
+            <!--Properties-->
+            <h2>Properties</h2>
             <table>
                 <thead>
                 <tr> <td>Property</td> <td>Description</td> <td>Type</td> <td>Default</td> </tr>

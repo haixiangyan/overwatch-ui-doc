@@ -13,7 +13,7 @@
                 <ow-button class="item" type="danger">Danger</ow-button>
             </div>
             <pre>
-                <code class="html">{{sample.withType}}</code>
+                <code class="html">{{sample.type}}</code>
             </pre>
 
             <!--Button with Icons-->
@@ -24,7 +24,7 @@
                 <ow-button class="item" type="danger" icon-name="remove">Remove</ow-button>
             </div>
             <pre>
-                <code class="html">{{sample.withIcon}}</code>
+                <code class="html">{{sample.icon}}</code>
             </pre>
             <p>Also, you can set its position as you like.</p>
             <div class="samples">
@@ -32,7 +32,7 @@
                 <ow-button class="item" icon-name="down" icon-position="right">Down</ow-button>
             </div>
             <pre>
-                <code class="html">{{sample.withIconPosition}}</code>
+                <code class="html">{{sample.iconPosition}}</code>
             </pre>
             <p>Loading state is also available.</p>
             <div class="samples">
@@ -43,7 +43,7 @@
                 </ow-button>
             </div>
             <pre>
-                <code class="html">{{sample.withLoading}}</code>
+                <code class="html">{{sample.loading}}</code>
             </pre>
 
             <!--Button with event-->
@@ -59,7 +59,7 @@
                 </ow-button>
             </div>
             <pre>
-                <code class="html">{{sample.withEvent}}</code>
+                <code class="html">{{sample.event}}</code>
             </pre>
 
             <!--Button with group-->
@@ -76,7 +76,7 @@
                 </ow-button-group>
             </div>
             <pre>
-                <code class="html">{{sample.withGroup}}</code>
+                <code class="html">{{sample.group}}</code>
             </pre>
 
             <!--Properties-->
@@ -126,7 +126,7 @@
     .samples {
         margin-bottom: 8px;
         .item {
-            margin: 0 4px;
+            margin-right: 8px;
         }
     }
 }

@@ -15,7 +15,7 @@ basic: `
     </ow-col>
 </ow-row>
 `,
-withGutter: `
+gutter: `
 <ow-row :gutter="10" class="row">
     <ow-col :pc="{span: 6}">
         <div class="col-item col-item-primary"></div>
@@ -30,7 +30,7 @@ withGutter: `
         <div class="col-item col-item-warning"></div>
     </ow-col>
 </ow-row>`,
-withSpanAndOffset: `
+spanAndOffset: `
 <ow-row class="row">
     <ow-col :pc="{span: 1, offset: 2}">
         <div class="col-item col-item-primary"></div>

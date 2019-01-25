@@ -5,7 +5,7 @@ basic: `
     <ow-content class="content">Content</ow-content>
     <ow-footer class="footer">Footer</ow-footer>
 </ow-layout>`,
-withOuterSider: `
+outerSider: `
 <ow-layout>
     <ow-sider class="sider">Sider</ow-sider>
     <ow-layout class="layout">
@@ -15,7 +15,7 @@ withOuterSider: `
     </ow-layout>
 </ow-layout>
 `,
-withInnerSider: `
+innerSider: `
 <ow-layout class="layout">
     <ow-header class="header">Header</ow-header>
     <ow-layout>
@@ -25,7 +25,7 @@ withInnerSider: `
     <ow-footer class="footer">Footer</ow-footer>
 </ow-layout>
 `,
-withToggle: `
+toggle: `
 <ow-layout class="layout">
     <ow-header class="header">Header</ow-header>
     <ow-layout>
