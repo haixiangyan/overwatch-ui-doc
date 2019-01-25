@@ -4,9 +4,9 @@ import Router from 'vue-router'
 import DocIntro from '../views/DocIntro'
 import DocStart from '../views/DocStart'
 import DocTrain from '../views/DocTrain'
-import DocComponents from '../views/DocComponents'
 // Sub menu
 import DocButton from '../views/subViews/DocButton'
+import DocLayout from '../views/subViews/DocLayout'
 
 Vue.use(Router)
 
@@ -31,6 +31,11 @@ const router = new Router({
             path: '/components/button',
             name: 'components',
             component: DocButton
+        },
+        {
+            path: '/components/layout',
+            name: 'layout',
+            component: DocLayout
         },
     ]
 })
