@@ -91,7 +91,7 @@
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-                padding: 0 50px 0 10px;
+                padding: 0 50px;
             }
             .avatar {
                 height: 50px;
