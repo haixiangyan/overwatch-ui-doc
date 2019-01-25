@@ -13,11 +13,6 @@
 <script>
     export default {
         name: "DocMenu",
-        props: {
-            isShowSubMenu: {
-                type: Boolean
-            }
-        },
         data() {
             return {
                 menu: {
@@ -33,11 +28,6 @@
                         {title: 'HIGHLIGHTS', url: 'https://www.bilibili.com/video/av13119712?from=search&seid=15921253199209780039'},
                     ]
                 }
-            }
-        },
-        methods: {
-            showSubMenu() {
-                this.$emit('update:isShowSubMenu', true)
             }
         }
     }

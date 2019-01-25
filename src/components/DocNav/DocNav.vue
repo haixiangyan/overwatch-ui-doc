@@ -40,19 +40,19 @@
     position: fixed;
     left: 0;
     top: 0;
-    width: 500px;
+    width: 28vw;
     height: 100vh;
     background: transparent;
     padding-left: 3vw;
 
     .nav-logo {
-        margin-top: 4vh;
-        width: 90%;
+        margin-top: 2vh;
+        width: 25vw;
     }
 
     .doc-board {
         position: absolute;
-        width: 80%;
+        width: 25vw;
         bottom: 4vh;
     }
 }

@@ -56,14 +56,14 @@
 .doc-post {
     position: relative;
     padding: 10px 20px 0;
-    margin: 7vh 3vw 2vh auto;
-    width: 70vw;
+    margin: 5vh 3vw 2vh auto;
+    width: 66vw;
     background: rgba(252, 246, 229, 0.95);
 
     .author {
         display: flex;
         position: fixed;
-        top: 7vh;
+        top: 5vh;
         right: 3vw;
 
         .add-button {
