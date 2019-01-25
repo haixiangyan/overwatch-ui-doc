@@ -10,6 +10,12 @@
         <section ref="markdownDoc" data-doc class="markdown-body">
             <slot></slot>
         </section>
+        <footer>
+            <div class="endorse-wrapper">
+                <img src="../assets/images/endorse.jpeg" alt="endorse-me">
+                <span>ENDORSE AUTHOR</span>
+            </div>
+        </footer>
     </div>
 </template>
 
@@ -41,7 +47,7 @@
 <style scoped lang="scss">
 .doc-post {
     position: relative;
-    padding: 10px 20px;
+    padding: 10px 20px 0;
     margin: 7vh 3vw 2vh auto;
     width: 70vw;
     background: rgba(252, 246, 229, 0.95);
@@ -89,6 +95,48 @@
     .markdown-body[data-doc] {
         > h1, h2, h3 {
             border-color: #2f3e4e;
+        }
+    }
+
+    footer {
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+        .endorse-wrapper {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid #eee;
+            border-bottom: none;
+            transition: all .3s;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+
+            img {
+                width: 40px;
+                height: 40px;
+                border-top-left-radius: $--border-radius-base;
+            }
+
+            span {
+                display: inline-flex;
+                height: 40px;
+                align-items: center;
+                padding: 0 30px;
+                background: rgba(0, 0, 0, 0.6);
+                color: $--color-white;
+                font-family: overwatch,serif;
+                border-top-right-radius: $--border-radius-base;
+                transition: all .3s;
+            }
+
+            &:hover {
+                border-color: rgba(0, 0, 0, 0.6);
+                span {
+                    background: $--color-white;
+                    color: rgba(0, 0, 0, 0.5);
+                }
+            }
         }
     }
 }

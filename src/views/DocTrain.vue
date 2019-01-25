@@ -3,7 +3,7 @@
         <doc-post>
             <h1>Training</h1>
 
-            <p>Before using components in your project, you can have fun in the playground.</p>
+            <p>Before using components in your project, you can take a quick look in the playground below.</p>
             <iframe
                 src="https://codesandbox.io/embed/r093528ny4"
                 style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
