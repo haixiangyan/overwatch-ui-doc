@@ -10,6 +10,7 @@ import DocLayout from '../views/subViews/DocLayout'
 import DocGrid from '../views/subViews/DocGrid'
 import DocTabs from '../views/subViews/DocTabs'
 import DocIcon from '../views/subViews/DocIcon'
+import DocInput from '../views/subViews/DocInput'
 
 Vue.use(Router)
 
@@ -54,6 +55,11 @@ const router = new Router({
             path: '/components/icon',
             name: 'icon',
             component: DocIcon
+        },
+        {
+            path: '/components/input',
+            name: 'input',
+            component: DocInput
         },
     ]
 })
