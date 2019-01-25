@@ -10,6 +10,15 @@
         </transition>
 
         <doc-board class="doc-board"></doc-board>
+
+        <!--Back button-->
+        <ow-button
+            v-if="this.isShowSubMenu"
+            class="back-button"
+            type="danger"
+            @click="$router.push({ path: '/' })">
+            BACK
+        </ow-button>
     </div>
 </template>
 
@@ -69,6 +78,12 @@
         position: absolute;
         width: 25vw;
         bottom: 4vh;
+    }
+
+    .back-button {
+        position: fixed;
+        left: 24vw;
+        bottom: 20vh;
     }
 }
 </style>
