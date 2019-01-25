@@ -2,10 +2,10 @@
     <div class="doc-nav-wrapper">
         <img class="nav-logo" src="../../assets/images/logo.png" alt="Logo">
 
-        <transition name="fade">
+        <transition name="slide-left">
             <doc-menu class="doc-menu" v-if="!isShowSubMenu"></doc-menu>
         </transition>
-        <transition name="fade">
+        <transition name="slide-left">
             <doc-sub-menu class="doc-sub-menu" v-if="isShowSubMenu"></doc-sub-menu>
         </transition>
 
