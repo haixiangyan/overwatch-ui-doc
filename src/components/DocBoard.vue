@@ -48,6 +48,18 @@
                 this.scrollToBottom()
             },
             addNewMessage() {
+                // If is empty then return
+                if (!this.newMessage) {
+                    return
+                }
+                // If is XSS
+                if (/(\b)(on\S+)(\s*)=|javascript|(<\s*)(\/*)script/.test(this.newMessage)) {
+                    this.$owAlert({
+                        title: 'INVALID CHARACTER',
+                        type: 'danger'
+                    })
+                    return
+                }
                 // Send new message to server
                 DB.addMessage(this.newMessage)
 
