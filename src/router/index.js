@@ -12,6 +12,7 @@ import DocTabs from '../views/subViews/DocTabs'
 import DocIcon from '../views/subViews/DocIcon'
 import DocInput from '../views/subViews/DocInput'
 import DocCollapse from '../views/subViews/DocCollapse'
+import DocAlert from '../views/subViews/DocAlert'
 
 Vue.use(Router)
 
@@ -66,6 +67,11 @@ const router = new Router({
             path: '/components/collapse',
             name: 'collapse',
             component: DocCollapse
+        },
+        {
+            path: '/components/alert',
+            name: 'alert',
+            component: DocAlert
         },
     ]
 })
