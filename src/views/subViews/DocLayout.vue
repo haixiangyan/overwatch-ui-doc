@@ -65,6 +65,18 @@
             <pre>
                 <code class="html">{{sample.withToggle}}</code>
             </pre>
+
+
+            <table>
+                <thead>
+                <tr> <td>Property</td> <td>Description</td> <td>Type</td> <td>Default</td> </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>visible</td><td>Set if OwHead is visible</td><td>Boolean</td><td>true</td>
+                </tr>
+                </tbody>
+            </table>
         </doc-post>
    </div>
 </template>
