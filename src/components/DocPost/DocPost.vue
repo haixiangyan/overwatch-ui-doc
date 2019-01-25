@@ -11,7 +11,7 @@
             <slot></slot>
         </section>
         <footer>
-            <div @click="isShowPayQR = !isShowPayQR" @mouseleave="isShowPayQR = false" class="endorse-wrapper">
+            <div @click="isShowPayQR = true" @mouseleave="isShowPayQR = false" class="endorse-wrapper">
                 <transition name="fade">
                     <img v-if="isShowPayQR" class="payQR" src="../../assets/images/wechatQR.jpeg" alt="payQR">
                 </transition>
