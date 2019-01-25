@@ -20,7 +20,7 @@
 
 <script>
     import DB from './db/index'
-    import DocNav from './components/DocNav'
+    import DocNav from './components/DocNav/DocNav'
     export default {
         name: 'App',
         created() {

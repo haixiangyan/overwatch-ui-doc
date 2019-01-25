@@ -21,7 +21,7 @@
 </template>
 
 <script>
-    import DB from '../db/index'
+    import DB from '../../db/index'
     export default {
         name: "DocBoard",
         data() {

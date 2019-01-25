@@ -1,9 +1,9 @@
 <template>
     <div class="doc-post">
         <div class="author">
-            <img @click="jumpToGithub" class="add-button" src="../assets/images/add-friend.png" alt="Add">
+            <img @click="jumpToGithub" class="add-button" src="../../assets/images/add-friend.png" alt="Add">
             <span class="author-info-wrapper">
-                <img class="avatar" src="../assets/images/avatar.png" alt="Avatar">
+                <img class="avatar" src="../../assets/images/avatar.png" alt="Avatar">
                 <span class="name">HAIXIANG</span>
             </span>
         </div>
@@ -13,7 +13,7 @@
         <footer>
             <div @click="isShowPayQR = !isShowPayQR" @mouseleave="isShowPayQR = false" class="endorse-wrapper">
                 <transition name="fade">
-                    <img v-if="isShowPayQR" class="payQR" src="../assets/images/wechatQR.jpeg" alt="payQR">
+                    <img v-if="isShowPayQR" class="payQR" src="../../assets/images/wechatQR.jpeg" alt="payQR">
                 </transition>
                 <span class="icon">$</span>
                 <span class="text">ENDORSE AUTHOR</span>
@@ -25,7 +25,7 @@
 <script>
     import hljs from 'highlight.js'
     import 'highlight.js/styles/atom-one-light.css'
-    import '../assets/styles/markdown.css'
+    import '../../assets/styles/markdown.css'
 
     export default {
         name: "DocPost",

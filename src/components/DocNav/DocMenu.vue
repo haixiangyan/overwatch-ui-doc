@@ -3,6 +3,9 @@
         <li v-for="menuItem in menu.mainItems" :key="menuItem.title" class="main-item-wrapper">
             <router-link class="main-item" :to="menuItem.url">{{menuItem.title}}</router-link>
         </li>
+        <li class="main-item-wrapper">
+            <a class="main-item" @click.prevent="showSubMenu" href="#">COMPONENTS</a>
+        </li>
         <li v-for="menuItem in menu.subItems" :key="menuItem.title" class="sub-item-wrapper">
             <a class="sub-item" v-if="menuItem.url.startsWith('http')" :href="menuItem.url">{{menuItem.title}}</a>
             <router-link v-else class="sub-item" :to="menuItem.url">{{menuItem.title}}</router-link>
@@ -14,7 +17,30 @@
     export default {
         name: "DocMenu",
         props: {
-            menu: { type: Object }
+            isShowSubMenu: {
+                type: Boolean
+            }
+        },
+        data() {
+            return {
+                menu: {
+                    mainItems: [
+                        {title: 'INTRO', url: '/'},
+                        {title: 'START', url: '/start'},
+                        {title: 'TRAINING', url: '/train'},
+                    ],
+                    subItems: [
+                        {title: 'GITHUB', url: 'https://github.com/Haixiang6123/overwatch-ui'},
+                        {title: 'SOCIAL', url: 'https://github.com/Haixiang6123'},
+                        {title: 'HIGHLIGHTS', url: 'https://www.bilibili.com/video/av13119712?from=search&seid=15921253199209780039'},
+                    ]
+                }
+            }
+        },
+        methods: {
+            showSubMenu() {
+                this.$emit('update:isShowSubMenu', true)
+            }
         }
     }
 </script>

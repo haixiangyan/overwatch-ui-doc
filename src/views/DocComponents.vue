@@ -5,7 +5,7 @@
 </template>
 
 <script>
-    import DocPost from '../components/DocPost'
+    import DocPost from '../components/DocPost/DocPost'
     export default {
         name: "DocComponents",
         data() {
