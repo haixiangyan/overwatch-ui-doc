@@ -7,13 +7,7 @@
                 <span class="name">HAIXIANG</span>
             </span>
         </div>
-        <section v-for="section in doc.sections">
-            <h1 v-if="section.h1">{{section.h1}}</h1>
-            <h2 v-if="section.h2">{{section.h2}}</h2>
-            <p v-if="section.desc">{{section.desc}}</p>
-            <pre ref="codeblock" v-if="section.codes">
-                {{section.codes}}
-            </pre>
+        <section v-html="doc">
         </section>
     </div>
 </template>
@@ -26,7 +20,7 @@
         name: "DocPost",
         props: {
             doc: {
-                type: Object,
+                type: String,
                 required: true
             }
         },

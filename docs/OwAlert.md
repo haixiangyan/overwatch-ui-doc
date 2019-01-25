@@ -14,7 +14,6 @@ Vue.use(OwUI.plugins.$owAlert)
 Then you can make an alert in anywhere of your project.
 
 ```javascript
-// xxx.vue 
 this.$owAlert({
     type: type,
     title: 'SEARCHING FOR GAME',
