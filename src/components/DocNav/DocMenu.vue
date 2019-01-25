@@ -20,7 +20,7 @@
                         {title: 'INTRO', url: '/'},
                         {title: 'START', url: '/start'},
                         {title: 'TRAINING', url: '/train'},
-                        {title: 'COMPONENTS', url: '/components'},
+                        {title: 'COMPONENTS', url: '/components/button'},
                     ],
                     subItems: [
                         {title: 'GITHUB', url: 'https://github.com/Haixiang6123/overwatch-ui'},

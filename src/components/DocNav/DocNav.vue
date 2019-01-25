@@ -26,13 +26,13 @@
             }
         },
         mounted() {
-            if (/components*/.test(this.$route.name)) {
+            if (/components*/.test(this.$route.path)) {
                 this.isShowSubMenu = true
             }
         },
         watch: {
             $route(route) {
-                this.isShowSubMenu = /components*/.test(route.name);
+                this.isShowSubMenu = /components*/.test(route.path);
             }
         },
         components: {

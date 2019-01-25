@@ -20,13 +20,6 @@
             return {
                 subMenu: [
                     {
-                        type: 'BASIC',
-                        urls: [
-                            {title: 'Button', url: '/components/button'},
-                            {title: 'Icon', url: '/components/icon'},
-                        ],
-                    },
-                    {
                         type: 'LAYOUT',
                         urls: [
                             {title: 'Layout', url: '/components/layout'},
@@ -37,6 +30,13 @@
                         type: 'NAVIGATION',
                         urls: [
                             {title: 'Tabs', url: '/components/tabs'},
+                        ],
+                    },
+                    {
+                        type: 'BASIC',
+                        urls: [
+                            {title: 'Button', url: '/components/button'},
+                            {title: 'Icon', url: '/components/icon'},
                         ],
                     },
                     {

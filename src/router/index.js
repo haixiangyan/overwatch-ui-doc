@@ -1,9 +1,12 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+// Main menu
 import DocIntro from '../views/DocIntro'
 import DocStart from '../views/DocStart'
 import DocTrain from '../views/DocTrain'
 import DocComponents from '../views/DocComponents'
+// Sub menu
+import DocButton from '../views/subViews/DocButton'
 
 Vue.use(Router)
 
@@ -25,10 +28,10 @@ const router = new Router({
             component: DocTrain
         },
         {
-            path: '/components',
+            path: '/components/button',
             name: 'components',
-            component: DocComponents
-        }
+            component: DocButton
+        },
     ]
 })
 export default router
