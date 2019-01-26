@@ -7,6 +7,7 @@ import DocTrain from '../views/DocTrain'
 // Sub menu
 import DocButton from '../views/subViews/DocButton'
 import DocLayout from '../views/subViews/DocLayout'
+import DocDesign from '../views/subViews/DocDesign'
 import DocGrid from '../views/subViews/DocGrid'
 import DocTabs from '../views/subViews/DocTabs'
 import DocIcon from '../views/subViews/DocIcon'
@@ -43,6 +44,11 @@ const router = new Router({
             path: '/components/layout',
             name: 'layout',
             component: DocLayout
+        },
+        {
+            path: '/components/design',
+            name: 'design',
+            component: DocDesign
         },
         {
             path: '/components/grid',
