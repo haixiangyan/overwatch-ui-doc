@@ -2,8 +2,7 @@ export default {
 importing: `
 import OwUI from 'overwatch-ui'
 
-Vue.use(OwUI.plugins.$owAlert)
-`,
+Vue.use(OwUI.plugins.$owAlert)`,
 useHtml: `
 <ow-button type="primary" @click="showAlert">Alert it</ow-button>`,
 useJs: `

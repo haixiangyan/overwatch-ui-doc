@@ -7,9 +7,9 @@
             <p>To use this component, you need to group your them with OwCollapseGroup</p>
             <div class="sample">
                 <ow-collapse-group :selected.sync="selectedCollapse1">
-                    <ow-collapse title="Title1" name="1"> <div>Content 1</div> </ow-collapse>
-                    <ow-collapse title="Title2" name="2"> <div>Content 2</div> </ow-collapse>
-                    <ow-collapse title="Title3" name="3"> <div>Content 3</div> </ow-collapse>
+                    <ow-collapse title="Title1" name="1"> <div class="content">Content 1</div> </ow-collapse>
+                    <ow-collapse title="Title2" name="2"> <div class="content">Content 2</div> </ow-collapse>
+                    <ow-collapse title="Title3" name="3"> <div class="content">Content 3</div> </ow-collapse>
                 </ow-collapse-group>
                 <span>You are selecting: {{selectedCollapse1}}</span>
             </div>
@@ -24,9 +24,9 @@
             <p>You can enable only one OwCollapse to expand. You can't define the selected array that has more than 1 element.</p>
             <div class="sample">
                 <ow-collapse-group :selected.sync="selectedCollapse2" :multiSelect="false">
-                    <ow-collapse title="Title1" name="1"> <div>Content 1</div> </ow-collapse>
-                    <ow-collapse title="Title2" name="2"> <div>Content 2</div> </ow-collapse>
-                    <ow-collapse title="Title3" name="3"> <div>Content 3</div> </ow-collapse>
+                    <ow-collapse title="Title1" name="1"> <div class="content">Content 1</div> </ow-collapse>
+                    <ow-collapse title="Title2" name="2"> <div class="content">Content 2</div> </ow-collapse>
+                    <ow-collapse title="Title3" name="3"> <div class="content">Content 3</div> </ow-collapse>
                 </ow-collapse-group>
                 <span>You are selecting: {{selectedCollapse2}}</span>
             </div>
@@ -74,5 +74,11 @@
 <style scoped lang="scss">
 .sample {
     margin-bottom: 10px;
+    .content {
+        margin-top: 4px;
+        padding: 10px;
+        background: $--color-bg-dark;
+        color: $--color-white;
+    }
 }
 </style>

@@ -107,7 +107,7 @@
     }
 
     footer {
-        margin-top: 70px;
+        margin-top: 40px;
         display: flex;
         justify-content: center;
         .endorse-wrapper {
