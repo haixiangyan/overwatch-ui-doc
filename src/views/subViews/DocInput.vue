@@ -21,7 +21,7 @@
                     class="input"
                     value="Password"
                     placeholder="password"
-                    icon-name="cancel"
+                    icon-name="check"
                     hint="Success: Valid Password."
                     hintType="success">
                 </ow-input>

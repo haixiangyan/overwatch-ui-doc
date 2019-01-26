@@ -34,7 +34,7 @@
                     <template slot="content">
                         <div>Popover Content, Hello World</div>
                     </template>
-                    <ow-button type="primary">Bottom</ow-button>
+                    <ow-button type="warning">Bottom</ow-button>
                 </ow-popover>
                 <ow-popover class="popover" position="left">
                     <template slot="content">
@@ -67,7 +67,7 @@
                     <template slot="content">
                         <div>Popover Content, Hello World</div>
                     </template>
-                    <ow-button type="primary">Bottom</ow-button>
+                    <ow-button type="warning">Bottom</ow-button>
                 </ow-popover>
                 <ow-popover trigger="hover" class="popover" position="left">
                     <template slot="content">
