@@ -1,26 +1,7 @@
-# ow-ui-doc
+# Official Website of Overwatch UI 
 
-## Project setup
-```
-yarn install
-```
+This repo is the official documentation website of [Overwatch UI](https://github.com/Haixiang6123/overwatch-ui).
+It mainly show you some basic component usage. [Click here to view it](https://haixiang6123.github.io/overwatch-ui-doc/).
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
+## Screenshot
+![](./screenshot/home.png)
