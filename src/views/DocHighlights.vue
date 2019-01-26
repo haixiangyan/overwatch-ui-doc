@@ -41,7 +41,7 @@
 .doc-highlights {
     .video {
         width: 100%;
-        height: 800px;
+        height: 80vh;
     }
 }
 </style>
