@@ -24,7 +24,7 @@
                     ],
                     subItems: [
                         {title: 'GITHUB', url: 'https://github.com/Haixiang6123/overwatch-ui'},
-                        {title: 'SOCIAL', url: 'https://github.com/Haixiang6123'},
+                        {title: 'SOCIAL', url: '/social'},
                         {title: 'HIGHLIGHTS', url: '/highlights'},
                     ]
                 }

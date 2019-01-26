@@ -16,6 +16,7 @@ import DocCollapse from '../views/subViews/DocCollapse'
 import DocAlert from '../views/subViews/DocAlert'
 import DocPopover from '../views/subViews/DocPopover'
 import DocHighlights from '../views/DocHighlights'
+import DocSocial from '../views/DocSocial'
 
 Vue.use(Router)
 
@@ -35,6 +36,11 @@ const router = new Router({
             path: '/train',
             name: 'train',
             component: DocTrain
+        },
+        {
+            path: '/social',
+            name: 'social',
+            component: DocSocial
         },
         {
             path: '/highlights',
