@@ -1,7 +1,7 @@
 <template>
     <div id="app">
         <!--Background-->
-        <img class="background" src="./assets/images/bg.jpg" alt="background">
+        <div class="background"></div>
         <ow-layout>
             <!--Left hand side nav-->
             <ow-sider>
@@ -37,6 +37,9 @@
         .background {
             position: fixed;
             width: 100vw;
+            height: 100vh;
+            background: url("./assets/images/bg.jpg") no-repeat center;
+            background-size: cover;
         }
     }
 </style>
