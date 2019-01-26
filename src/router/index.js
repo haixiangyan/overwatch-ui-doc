@@ -15,6 +15,7 @@ import DocInput from '../views/subViews/DocInput'
 import DocCollapse from '../views/subViews/DocCollapse'
 import DocAlert from '../views/subViews/DocAlert'
 import DocPopover from '../views/subViews/DocPopover'
+import DocHighlights from '../views/DocHighlights'
 
 Vue.use(Router)
 
@@ -34,6 +35,11 @@ const router = new Router({
             path: '/train',
             name: 'train',
             component: DocTrain
+        },
+        {
+            path: '/highlights',
+            name: 'highlights',
+            component: DocHighlights
         },
         {
             path: '/components/button',

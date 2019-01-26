@@ -25,7 +25,7 @@
                     subItems: [
                         {title: 'GITHUB', url: 'https://github.com/Haixiang6123/overwatch-ui'},
                         {title: 'SOCIAL', url: 'https://github.com/Haixiang6123'},
-                        {title: 'HIGHLIGHTS', url: 'https://www.bilibili.com/video/av13119712?from=search&seid=15921253199209780039'},
+                        {title: 'HIGHLIGHTS', url: '/highlights'},
                     ]
                 }
             }
