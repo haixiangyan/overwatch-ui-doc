@@ -1,5 +1,12 @@
 export default {
 basic: `
+<ow-popover position="top">
+    <template slot="content">
+        <div>Popover Content</div>
+    </template>
+    <ow-button>Pop It!</ow-button>
+</ow-popover>`,
+direction: `
 <ow-popover class="popover" position="top">
     <template slot="content">
         <div>Popover Content, Hello World</div>
