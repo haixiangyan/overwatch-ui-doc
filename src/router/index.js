@@ -21,7 +21,6 @@ import DocSocial from '../views/DocSocial'
 Vue.use(Router)
 
 const router = new Router({
-    mode: 'history',
     routes: [
         {
             path: '/',
