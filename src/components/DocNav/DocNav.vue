@@ -5,7 +5,7 @@
         <transition name="slide-left">
             <doc-menu class="doc-menu" v-if="!isShowSubMenu"></doc-menu>
         </transition>
-        <transition name="slide-left">
+        <transition name="slide-right">
             <doc-sub-menu class="doc-sub-menu" v-if="isShowSubMenu"></doc-sub-menu>
         </transition>
 

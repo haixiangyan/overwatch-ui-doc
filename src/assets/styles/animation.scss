@@ -45,3 +45,10 @@
   opacity: 0;
   transform: translateX(-50%);
 }
+.slide-right-enter-active, .slide-right-leave-active {
+  transition: all .5s;
+}
+.slide-right-enter, .slide-right-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+  transform: translateX(50%);
+}
