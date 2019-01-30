@@ -21,6 +21,7 @@ import DocSocial from '../views/DocSocial'
 Vue.use(Router)
 
 const router = new Router({
+    mode: 'history',
     routes: [
         {
             path: '/',
@@ -55,7 +56,8 @@ const router = new Router({
         {
             path: '/components/layout',
             name: 'layout',
-            component: DocLayout
+            component: DocLayout,
+            alias: '/components'
         },
         {
             path: '/components/design',
