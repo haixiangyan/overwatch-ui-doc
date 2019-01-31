@@ -59,8 +59,8 @@
                         <img :src="bg" alt="bg">
                     </div>
                     <div>
-                        <ow-button class="download-button">
-                            <a style="color: white" :href="bg">Download</a>
+                        <ow-button @click="downloadImg(bg)" class="download-button">
+                            <span class="download-button-link">Download</span>
                         </ow-button>
                     </div>
                 </ow-col>
@@ -85,6 +85,11 @@
         },
         components: {
             DocPost
+        },
+        methods: {
+            downloadImg(bg) {
+                window.location.href = bg
+            }
         }
     }
 </script>
@@ -116,6 +121,9 @@
         .download-button {
             width: 100%;
             height: $--height-mini;
+            &-link {
+                color: white;
+            }
         }
     }
 }
