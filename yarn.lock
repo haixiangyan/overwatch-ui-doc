@@ -4703,10 +4703,9 @@ osenv@0, osenv@^0.1.4:
     os-homedir "^1.0.0"
     os-tmpdir "^1.0.0"
 
-overwatch-ui@^0.5.6:
-  version "0.5.6"
-  resolved "https://registry.yarnpkg.com/overwatch-ui/-/overwatch-ui-0.5.6.tgz#0aeda64e71a1cae11673d17efd1695697540d11d"
-  integrity sha512-zeAAbl5koc44nl0w+FdjgQtTWXjeAi3+JRWghyvzxKSTyy/1P1/T3gfGeI5jPp+sBicK06P3rQmy00rGxlLlAA==
+overwatch-ui@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/overwatch-ui/-/overwatch-ui-0.6.0.tgz#ce2f556cf278b07303cd58c2f02747f5ec5b4c69"
   dependencies:
     vue "^2.5.21"
 

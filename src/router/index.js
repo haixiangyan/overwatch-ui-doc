@@ -12,6 +12,7 @@ import DocGrid from '../views/subViews/DocGrid'
 import DocTabs from '../views/subViews/DocTabs'
 import DocIcon from '../views/subViews/DocIcon'
 import DocInput from '../views/subViews/DocInput'
+import DocCascader from '../views/subViews/DocCascader'
 import DocCollapse from '../views/subViews/DocCollapse'
 import DocAlert from '../views/subViews/DocAlert'
 import DocPopover from '../views/subViews/DocPopover'
@@ -82,6 +83,11 @@ const router = new Router({
             path: '/components/input',
             name: 'input',
             component: DocInput
+        },
+        {
+            path: '/components/cascader',
+            name: 'cascader',
+            component: DocCascader
         },
         {
             path: '/components/collapse',

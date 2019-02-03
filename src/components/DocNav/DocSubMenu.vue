@@ -44,6 +44,7 @@
                         type: 'FORM',
                         urls: [
                             {title: 'Input', url: '/components/input'},
+                            {title: 'Cascader', url: '/components/cascader'},
                             {title: 'Collapse', url: '/components/collapse'},
                         ],
                     },
