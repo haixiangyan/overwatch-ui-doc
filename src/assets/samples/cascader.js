@@ -49,7 +49,8 @@ data() {
                 ]
             }
         ]
-    }`,
+    }
+}`,
 loadDataHtml: `
 <ow-cascader
     :source.sync="source"

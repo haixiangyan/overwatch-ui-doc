@@ -4703,9 +4703,9 @@ osenv@0, osenv@^0.1.4:
     os-homedir "^1.0.0"
     os-tmpdir "^1.0.0"
 
-overwatch-ui@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/overwatch-ui/-/overwatch-ui-0.6.0.tgz#ce2f556cf278b07303cd58c2f02747f5ec5b4c69"
+overwatch-ui@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/overwatch-ui/-/overwatch-ui-0.6.1.tgz#5550bc723d712b8e8afb6886b6965625f6c81ce2"
   dependencies:
     vue "^2.5.21"
 
