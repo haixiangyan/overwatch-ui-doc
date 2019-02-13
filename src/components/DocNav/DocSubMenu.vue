@@ -31,6 +31,7 @@
                         type: 'NAVIGATION',
                         urls: [
                             {title: 'Tabs', url: '/components/tabs'},
+                            {title: 'Carousel', url: '/components/carousel'},
                         ],
                     },
                     {
