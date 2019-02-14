@@ -23,10 +23,21 @@ $ npm install overwatch-ui --save</code>
             </p>
             <pre>
                 <code class="js">
+// Import the library
 import OwUI from 'overwatch-ui'
 import 'overwatch-ui/dist/overwatch-ui.css'
 
-Vue.use(OwUI.plugins.$owAlert)</code>
+// Use some plugins
+Vue.use(OwUI.plugins.$owAlert)
+
+// Register components that you need in the <App/>
+new Vue({
+    components: {
+        ...OwUI.Components
+    },
+    router,
+    render: h => h(App)
+}).$mount('#app')</code>
             </pre>
 
             <h2>Usage</h2>
