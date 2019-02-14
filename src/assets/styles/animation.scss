@@ -38,14 +38,14 @@
   opacity: 0;
 }
 
-.slide-quick-left-enter-active, .slide-left-leave-active {
+.slide-quick-left-enter-active, .slide-quick-left-leave-active {
   transition: all .5s;
 }
-.slide-quick-left-enter, .slide-left-leave-to /* .fade-leave-active below version 2.1.8 */ {
+.slide-quick-left-enter, .slide-quick-left-leave-to /* .fade-leave-active below version 2.1.8 */ {
   opacity: 0;
   transform: translateX(-50%);
 }
-.slide-quick-right-enter-active, .slide-right-leave-active {
+.slide-quick-right-enter-active, .slide-quick-right-leave-active {
   transition: all .5s;
 }
 .slide-quick-right-enter, .slide-quick-right-leave-to /* .fade-leave-active below version 2.1.8 */ {
