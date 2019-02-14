@@ -40,6 +40,25 @@
             <pre>
                 <code class="js">{{sample.loadDataJs}}</code>
             </pre>
+
+            <!--Properties-->
+            <h2>Properties</h2>
+            <table>
+                <thead>
+                <tr> <td>Property</td> <td>Description</td> <td>Type</td> <td>Default</td> </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>source</td><td>Data source</td><td>Object</td><td>{}</td>
+                </tr>
+                <tr>
+                    <td>selected</td><td>Selected Item</td><td>String, Number</td><td>-</td>
+                </tr>
+                <tr>
+                    <td>placeholder</td><td>Placeholder of Input box</td><td>String</td><td>""</td>
+                </tr>
+                </tbody>
+            </table>
         </doc-post>
     </div>
 </template>
