@@ -185,6 +185,7 @@
     margin: 0 auto;
     width: 100%;
     .box {
+        height: 300px;
         display: flex;
         justify-content: center;
         align-items: center;
