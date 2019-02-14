@@ -86,16 +86,20 @@
                             <div class="game">
                                 <img src="../../assets/images/banner/c-2.jpg" alt="portrait">
                             </div>
-                            <div class="game">
-                                <img src="../../assets/images/banner/c-3.jpg" alt="portrait">
-                            </div>
                         </div>
                     </ow-carousel-item>
                     <ow-carousel-item name="2">
                         <div class="box">
                             <div class="game">
+                                <img src="../../assets/images/banner/c-3.jpg" alt="portrait">
+                            </div>
+                            <div class="game">
                                 <img src="../../assets/images/banner/c-4.jpg" alt="portrait">
                             </div>
+                        </div>
+                    </ow-carousel-item>
+                    <ow-carousel-item name="3">
+                        <div class="box">
                             <div class="game">
                                 <img src="../../assets/images/banner/c-5.jpg" alt="portrait">
                             </div>
