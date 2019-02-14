@@ -119,17 +119,17 @@
             <div class="samples">
                 <ow-carousel :is-auto-play="false" :selected.sync="selected3">
                     <ow-carousel-item name="1">
-                        <div class="box">
+                        <div class="large-box">
                             <img src="../../assets/images/banner/banner-1.jpg" alt="portrait">
                         </div>
                     </ow-carousel-item>
                     <ow-carousel-item name="2">
-                        <div class="box">
+                        <div class="large-box">
                             <img src="../../assets/images/banner/banner-2.jpg" alt="portrait">
                         </div>
                     </ow-carousel-item>
                     <ow-carousel-item name="3">
-                        <div class="box">
+                        <div class="large-box">
                             <img src="../../assets/images/banner/banner-3.jpg" alt="portrait">
                         </div>
                     </ow-carousel-item>
@@ -184,6 +184,12 @@
 .samples {
     margin: 0 auto;
     width: 100%;
+    .large-box {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        height: 400px;
+    }
     .box {
         height: 300px;
         display: flex;
