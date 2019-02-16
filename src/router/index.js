@@ -4,6 +4,8 @@ import Router from 'vue-router'
 import DocIntro from '../views/DocIntro'
 import DocStart from '../views/DocStart'
 import DocTrain from '../views/DocTrain'
+import DocHighlights from '../views/DocHighlights'
+import DocSocial from '../views/DocSocial'
 // Sub menu
 import DocButton from '../views/subViews/DocButton'
 import DocLayout from '../views/subViews/DocLayout'
@@ -16,9 +18,8 @@ import DocCascader from '../views/subViews/DocCascader'
 import DocCarousel from '../views/subViews/DocCarousel'
 import DocCollapse from '../views/subViews/DocCollapse'
 import DocAlert from '../views/subViews/DocAlert'
+import DocNav from '../views/subViews/DocNav'
 import DocPopover from '../views/subViews/DocPopover'
-import DocHighlights from '../views/DocHighlights'
-import DocSocial from '../views/DocSocial'
 
 Vue.use(Router)
 
@@ -74,6 +75,11 @@ const router = new Router({
             path: '/components/tabs',
             name: 'tabs',
             component: DocTabs
+        },
+        {
+            path: '/components/nav',
+            name: 'nav',
+            component: DocNav
         },
         {
             path: '/components/icon',
