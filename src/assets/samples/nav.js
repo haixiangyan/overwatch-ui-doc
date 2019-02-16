@@ -32,7 +32,7 @@ data() {
     <ow-nav-item name="career">Career</ow-nav-item>
 </ow-nav>`,
     vertical: `
-<ow-nav :selected.sync="selected1" :isVertical="true" style="width: 200px">
+<ow-nav :selected.sync="selected" :isVertical="true" style="width: 200px">
     <ow-nav-item name="home">Home</ow-nav-item>
     <ow-sub-nav name="about">
         <template slot="title">About</template>
@@ -51,7 +51,7 @@ data() {
     <ow-nav-item name="career">Career</ow-nav-item>
 </ow-nav>`,
     newSelectedHtml: `
-<ow-nav :selected.sync="selected4" @update:selected="onUpdateSelected">
+<ow-nav :selected.sync="selected" @update:selected="onUpdateSelected">
     <ow-nav-item name="home">Home</ow-nav-item>
     <ow-nav-item name="team">Team</ow-nav-item>
     <ow-nav-item name="developer">Developer</ow-nav-item>
