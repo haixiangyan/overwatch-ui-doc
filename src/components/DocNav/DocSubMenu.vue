@@ -33,6 +33,7 @@
                             {title: 'Nav', url: '/components/nav'},
                             {title: 'Tabs', url: '/components/tabs'},
                             {title: 'Carousel', url: '/components/carousel'},
+                            {title: 'Pager', url: '/components/pager'},
                         ],
                     },
                     {

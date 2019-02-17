@@ -12,6 +12,7 @@ import DocLayout from '../views/subViews/DocLayout'
 import DocDesign from '../views/subViews/DocDesign'
 import DocGrid from '../views/subViews/DocGrid'
 import DocTabs from '../views/subViews/DocTabs'
+import DocPager from '../views/subViews/DocPager'
 import DocIcon from '../views/subViews/DocIcon'
 import DocInput from '../views/subViews/DocInput'
 import DocValidator from '../views/subViews/DocValidator'
@@ -81,6 +82,11 @@ const router = new Router({
             path: '/components/nav',
             name: 'nav',
             component: DocNav
+        },
+        {
+            path: '/components/pager',
+            name: 'pager',
+            component: DocPager
         },
         {
             path: '/components/icon',
