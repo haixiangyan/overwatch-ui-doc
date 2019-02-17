@@ -8,6 +8,7 @@ import OwUI from 'overwatch-ui'
 import 'overwatch-ui/dist/overwatch-ui.css'
 
 Vue.use(OwUI.plugins.$owAlert)
+Vue.use(OwUI.plugins.$OwValidator)
 
 new Vue({
     components: {

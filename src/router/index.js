@@ -14,6 +14,7 @@ import DocGrid from '../views/subViews/DocGrid'
 import DocTabs from '../views/subViews/DocTabs'
 import DocIcon from '../views/subViews/DocIcon'
 import DocInput from '../views/subViews/DocInput'
+import DocValidator from '../views/subViews/DocValidator'
 import DocCascader from '../views/subViews/DocCascader'
 import DocCarousel from '../views/subViews/DocCarousel'
 import DocCollapse from '../views/subViews/DocCollapse'
@@ -90,6 +91,11 @@ const router = new Router({
             path: '/components/input',
             name: 'input',
             component: DocInput
+        },
+        {
+            path: '/components/validator',
+            name: 'validator',
+            component: DocValidator
         },
         {
             path: '/components/cascader',
