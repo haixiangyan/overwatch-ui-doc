@@ -7,7 +7,7 @@
                 <span class="name">HAIXIANG</span>
             </span>
         </div>
-        <section ref="markdownDoc" data-doc class="markdown-body">
+        <section ref="markdownDoc" data-doc :class="{'markdown-body': useMarkdown}">
             <slot></slot>
         </section>
         <footer>
@@ -29,6 +29,12 @@
 
     export default {
         name: "DocPost",
+        props: {
+            useMarkdown: {
+                type: Boolean,
+                default: true
+            }
+        },
         data() {
             return {
                 isShowPayQR: false
