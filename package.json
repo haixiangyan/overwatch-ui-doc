@@ -10,7 +10,7 @@
     "highlight.js": "^9.13.1",
     "leancloud-realtime": "^4.2.1",
     "leancloud-storage": "^3.11.1",
-    "overwatch-ui": "^1.1.0",
+    "overwatch-ui": "^1.1.1",
     "vue": "^2.5.21",
     "vue-router": "^3.0.1"
   },
