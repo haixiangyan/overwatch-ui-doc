@@ -88,6 +88,7 @@
 
 <style scoped lang="scss">
 .doc-board-wrapper {
+    z-index: 2;
     .board, .input-wrapper {
         border-radius: $--border-radius-base;
         color: #26AEE6;

@@ -84,7 +84,7 @@
         position: fixed;
         left: 24vw;
         bottom: 20vh;
-        z-index: -1;
+        z-index: 1;
     }
 }
 </style>
