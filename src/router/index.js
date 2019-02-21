@@ -24,6 +24,7 @@ import DocNav from '../views/subViews/DocNav'
 import DocPopover from '../views/subViews/DocPopover'
 import DocTable from '../views/subViews/DocTable'
 import DocUploader from '../views/subViews/DocUploader'
+import DocSticky from '../views/subViews/DocSticky'
 
 Vue.use(Router)
 
@@ -139,6 +140,11 @@ const router = new Router({
             path: '/components/popover',
             name: 'popover',
             component: DocPopover
+        },
+        {
+            path: '/components/sticky',
+            name: 'sticky',
+            component: DocSticky
         },
     ]
 })

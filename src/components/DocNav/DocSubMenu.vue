@@ -25,6 +25,7 @@
                             {title: 'Layout', url: '/components/layout'},
                             {title: 'Grid', url: '/components/grid'},
                             {title: 'Design', url: '/components/design'},
+                            {title: 'Sticky', url: '/components/sticky'},
                         ],
                     },
                     {
