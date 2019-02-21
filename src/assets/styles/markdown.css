@@ -312,6 +312,7 @@
 
 .markdown-body table th {
     font-weight: 600;
+    text-align: left;
 }
 
 .markdown-body table th,

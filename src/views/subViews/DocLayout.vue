@@ -70,7 +70,7 @@
             <h2>Properties</h2>
             <table>
                 <thead>
-                <tr> <td>Property</td> <td>Description</td> <td>Type</td> <td>Default</td> </tr>
+                <tr> <th>Property</th> <th>Description</th> <th>Type</th> <th>Default</th> </tr>
                 </thead>
                 <tbody>
                 <tr>
