@@ -95,9 +95,13 @@
     }
 
     .board {
-        padding: 8px;
+        padding: 4px 8px;
         max-height: 18vh;
         overflow: auto;
+        z-index: 3;
+        li {
+            padding: 4px 0;
+        }
     }
 
     .input-wrapper {

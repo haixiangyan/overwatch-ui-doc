@@ -9,12 +9,7 @@
             </p>
 
             <pre>
-                <code class="bash">
-$ yarn install overwatch-ui
-
-or
-
-$ npm install overwatch-ui --save</code>
+                <code class="bash">{{sample.install}}</code>
             </pre>
 
             <h2>Import</h2>
@@ -22,28 +17,13 @@ $ npm install overwatch-ui --save</code>
                 Then you need to import the components and plugins of it.
             </p>
             <pre>
-                <code class="js">
-// Import the library
-import OwUI from 'overwatch-ui'
-import 'overwatch-ui/dist/overwatch-ui.css'
-
-// Use some plugins
-Vue.use(OwUI.plugins.$owAlert)
-
-// Register components that you need in the <App/>
-new Vue({
-    components: {
-        ...OwUI.Components
-    },
-    router,
-    render: h => h(App)
-}).$mount('#app')</code>
+                <code class="js">{{sample.importing}}</code>
             </pre>
 
             <h2>Usage</h2>
             <p>Now, let's place some components in your Web APP!</p>
             <pre>
-                <code class="html">{{usageCodes}}</code>
+                <code class="html">{{sample.basicHtml}}</code>
             </pre>
 
             <p>Then you'll see this.</p>
@@ -66,25 +46,14 @@ new Vue({
 </template>
 
 <script>
+    import sample from '../assets/samples/start'
     import DocPost from '../components/DocPost/DocPost'
 
     export default {
         name: 'DocIntro',
         data() {
             return {
-                usageCodes: `
-<ow-button type="info">Info</ow-button>
-<ow-button type="primary">Primary</ow-button>
-<ow-button type="success">Success</ow-button>
-<ow-button type="warning">Warning</ow-button>
-<ow-button type="danger">Danger</ow-button>
-
-<ow-popover position="top">
-    <template slot="content">
-        <div>Hello, Overwatch UI!</div>
-    </template>
-    <ow-button>Pop It!</ow-button>
-</ow-popover>`
+                sample
             }
         },
         components: {
