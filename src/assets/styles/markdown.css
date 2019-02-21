@@ -157,15 +157,13 @@
     margin-bottom: 0;
 }
 
-.markdown-body ol ol,
-.markdown-body ul ol {
+.markdown-body ul {
     list-style-type: lower-roman;
 }
 
-.markdown-body ul ul ol,
-.markdown-body ul ol ol,
-.markdown-body ol ul ol,
-.markdown-body ol ol ol {
+.markdown-body ul ul,
+.markdown-body ul,
+.markdown-body ul {
     list-style-type: lower-alpha;
 }
 
@@ -272,15 +270,12 @@
     color: #6a737d;
 }
 
-.markdown-body ul,
-.markdown-body ol {
+.markdown-body ul {
     padding-left: 2em;
 }
 
 .markdown-body ul ul,
-.markdown-body ul ol,
-.markdown-body ol ol,
-.markdown-body ol ul {
+.markdown-body ul {
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -291,10 +286,6 @@
 
 .markdown-body li>p {
     margin-top: 16px;
-}
-
-.markdown-body li+li {
-    margin-top: 0.25em;
 }
 
 .markdown-body dl {
@@ -325,7 +316,7 @@
 
 .markdown-body table th,
 .markdown-body table td {
-    padding: 6px 13px;
+    padding: .8em 1em;
     border: 1px solid #dfe2e5;
 }
 

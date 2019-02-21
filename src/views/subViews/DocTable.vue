@@ -134,13 +134,13 @@
                         <td>height</td><td>Set table height</td><td>Number</td><td>-</td>
                     </tr>
                     <tr>
-                        <td>sortRules</td><td>Sorting rules for each item</td><td>Object</td><td>{}</td>
+                        <td>sort-rules</td><td>Sorting rules for each item</td><td>Object</td><td>{}</td>
                     </tr>
                     <tr>
-                        <td>isShowIndex</td><td>If show index</td><td>Boolean</td><td>false</td>
+                        <td>is-show-index</td><td>If show index</td><td>Boolean</td><td>false</td>
                     </tr>
                     <tr>
-                        <td>isCompact</td><td>If show a compact table</td><td>Boolean</td><td>false</td>
+                        <td>is-compact</td><td>If show a compact table</td><td>Boolean</td><td>false</td>
                     </tr>
                     <tr>
                         <td>expand-field</td><td>Define the field that will be shown in details</td><td>String</td><td>-</td>

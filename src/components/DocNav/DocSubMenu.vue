@@ -56,6 +56,7 @@
                             {title: 'Validator', url: '/components/validator'},
                             {title: 'Cascader', url: '/components/cascader'},
                             {title: 'Collapse', url: '/components/collapse'},
+                            {title: 'Uploader', url: '/components/uploader'}
                         ],
                     },
                     {

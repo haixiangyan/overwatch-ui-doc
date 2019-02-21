@@ -23,6 +23,7 @@ import DocAlert from '../views/subViews/DocAlert'
 import DocNav from '../views/subViews/DocNav'
 import DocPopover from '../views/subViews/DocPopover'
 import DocTable from '../views/subViews/DocTable'
+import DocUploader from '../views/subViews/DocUploader'
 
 Vue.use(Router)
 
@@ -98,6 +99,11 @@ const router = new Router({
             path: '/components/input',
             name: 'input',
             component: DocInput
+        },
+        {
+            path: '/components/uploader',
+            name: 'uploader',
+            component: DocUploader
         },
         {
             path: '/components/table',
