@@ -1,6 +1,8 @@
 <template>
     <div class="doc-nav-wrapper">
-        <img class="nav-logo" src="../../assets/images/logo.png" alt="Logo">
+        <router-link to="/">
+            <img class="nav-logo" src="../../assets/images/logo.png" alt="Logo">
+        </router-link>
 
         <transition name="slide-quick-left">
             <doc-menu class="doc-menu" v-if="!isShowSubMenu"></doc-menu>

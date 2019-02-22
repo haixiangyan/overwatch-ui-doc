@@ -71,6 +71,7 @@
         position: fixed;
         top: 5vh;
         right: 3vw;
+        z-index: 3;
 
         .add-button {
             height: 50px;

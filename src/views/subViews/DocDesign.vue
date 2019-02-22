@@ -5,18 +5,18 @@
             <!--Idea-->
             <h2>Idea</h2>
             <p>
-                Because all components are developed based on the game Overwatch, you may find it's not compatible with your web app.
-                For example, if your App has a background with white color, and you place the OwButton on it. You will see this.
+                Because all components are developed based on the game Overwatch, you may find it's kind of not compatible with your web app.
+                For example, if there's a white background, and you place the OwButton on it. You will see this.
             </p>
             <div class="suit">
                 <ow-button>Test</ow-button>
             </div>
             <p>
                 It's little hard to observe the changes of hover transition or its border. Why I design them like this?
-                Because all components are from Overwatch which always has a colorful background there. I have already tried my
+                Because the component design style come from Overwatch which always has a colorful background there. I have already tried my
                 best to balance the color value of border, background, text color to make it more suitable for Web App.
             </p>
-            <strong>Because of this reason, I strongly recommend you to add a background so that your Web App looks nicer.</strong>
+            <strong>So I strongly recommend you to add a background so that your Web App looks nicer.</strong>
 
             <!--Color-->
             <h2>Color</h2>
