@@ -25,6 +25,7 @@ import DocPopover from '../views/subViews/DocPopover'
 import DocTable from '../views/subViews/DocTable'
 import DocUploader from '../views/subViews/DocUploader'
 import DocSticky from '../views/subViews/DocSticky'
+import DocScroll from '../views/subViews/DocScroll'
 
 Vue.use(Router)
 
@@ -146,6 +147,11 @@ const router = new Router({
             name: 'sticky',
             component: DocSticky
         },
+        {
+            path: '/components/scroll',
+            name: 'scroll',
+            component: DocScroll
+        }
     ]
 })
 export default router

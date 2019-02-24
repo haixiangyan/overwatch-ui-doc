@@ -48,6 +48,7 @@
                         urls: [
                             {title: 'Table', url: '/components/table'},
                             {title: 'Pager', url: '/components/pager'},
+                            {title: 'Scroll', url: '/components/scroll'},
                         ],
                     },
                     {
