@@ -56,9 +56,10 @@
                         urls: [
                             {title: 'Input', url: '/components/input'},
                             {title: 'Validator', url: '/components/validator'},
-                            {title: 'Cascader', url: '/components/cascader'},
+                            {title: 'DatePicker', url: '/components/date-picker'},
+                            {title: 'Uploader', url: '/components/uploader'},
                             {title: 'Collapse', url: '/components/collapse'},
-                            {title: 'Uploader', url: '/components/uploader'}
+                            {title: 'Cascader', url: '/components/cascader'},
                         ],
                     },
                     {
