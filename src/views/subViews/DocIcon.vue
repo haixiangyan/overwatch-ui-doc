@@ -2,17 +2,7 @@
     <div class="doc-icon">
         <doc-post>
             <h1>Icon</h1>
-            <!--Name-->
-            <h2>Name</h2>
-            <p>Set the name to select any icons you like</p>
-            <div class="sample">
-                <ow-icon class="icon" name="setting"></ow-icon>
-                <ow-icon class="icon" name="remove"></ow-icon>
-                <ow-icon class="icon" name="user"></ow-icon>
-            </div>
-            <pre>
-                <code class="html">{{sample.basic}}</code>
-            </pre>
+            <p>You may need to define the color first before using any icons.</p>
             <!--Color-->
             <h2>Color</h2>
             <p>In some cases, you may want to highlight the Icon.</p>
