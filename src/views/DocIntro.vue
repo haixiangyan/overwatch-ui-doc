@@ -23,7 +23,7 @@
             <p>Get excited? Go <router-link to="/start">here</router-link> to get started.</p>
 
             <h2>Note</h2>
-            <p>This UI library will reset some styles as followed. I strongly recommend you to add these styles to all of your projects :), because some CSS bugs can't be found without them.</p>
+            <p>This UI library will reset some styles as followed. I strongly recommend you to add these styles to all of your projects for saving time to find CSS bugs :)</p>
 
             <pre>
 <code class="css">

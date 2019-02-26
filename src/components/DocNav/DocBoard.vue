@@ -2,12 +2,12 @@
     <div class="doc-board-wrapper">
         <transition name="fade">
             <ul ref="board" v-show="isShow" class="board">
-                <li v-for="message in messages" :key="message.id">[Note]: {{message.attributes.content}}</li>
+                <li :class="getRandomColor()" v-for="message in messages" :key="message.id">[{{getFormattedDate(message.createdAt)}}]: {{message.attributes.content}}</li>
             </ul>
         </transition>
 
         <div class="input-wrapper" :class="inputWrapperClasses">
-            <span>[Note]: </span>
+            <span :class="[getRandomColor()]">[Note]: </span>
             <input
                 v-model="newMessage"
                 @focus="onFocus"
@@ -28,7 +28,8 @@
             return {
                 isShow: false,
                 newMessage: '',
-                messages: []
+                messages: [],
+                colors: ['green', 'blue', 'orange']
             }
         },
         computed: {
@@ -42,10 +43,22 @@
             })
         },
         methods: {
+            getRandomColor() {
+                const randomNum = Math.floor(Math.random() * Math.floor(3));
+                return this.colors[randomNum]
+            },
             onFocus() {
                 this.isShow = true
 
                 this.scrollToBottom()
+            },
+            getFormattedDate(dateObj) {
+                const year = dateObj.getFullYear()
+                let month = dateObj.getMonth() + 1
+                let date = dateObj.getDate()
+                month = (month < 10 ? '0' : '') + month
+                date = (date < 10 ? '0' : '') + date
+                return `${month}-${date}-${year}`
             },
             addNewMessage() {
                 // If is empty then return
@@ -87,11 +100,19 @@
 </script>
 
 <style scoped lang="scss">
+.green {
+    color: #8db974
+}
+.blue {
+    color: #26AEE6;
+}
+.orange {
+    color: #f1903f;
+}
 .doc-board-wrapper {
     z-index: 2;
     .board, .input-wrapper {
         border-radius: $--border-radius-base;
-        color: #26AEE6;
         background: rgba(0, 0, 0, 0.7);
     }
 
