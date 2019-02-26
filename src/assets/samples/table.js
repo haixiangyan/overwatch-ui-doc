@@ -10,7 +10,7 @@ data() {
         ],
         source: [
             {id: 1, name: 'Jack', score: 100},
-            {id: 2, name: 'Marry', score: 200},
+            {id: 2, name: 'Mary', score: 200},
             {id: 3, name: 'Xiaoming', score: 300},
             {id: 4, name: 'Ani', score: 400},
         ],
@@ -34,7 +34,7 @@ data() {
         ],
         source: [
             {id: 1, name: 'Jack', score: 100},
-            {id: 2, name: 'Marry', score: 200},
+            {id: 2, name: 'Mary', score: 200},
             {id: 3, name: 'Xiaoming', score: 300},
             {id: 4, name: 'Ani', score: 400},
         ],
@@ -109,7 +109,7 @@ data() {
     return {
         source: [
             {id: 1, name: 'Jack', score: 100, description: 'Good Job'},
-            {id: 2, name: 'Marry', score: 200, description: 'Nice Job'},
+            {id: 2, name: 'Mary', score: 200, description: 'Nice Job'},
             {id: 3, name: 'Xiaoming', score: 300},
             {id: 4, name: 'Ani', score: 400},
         ]
