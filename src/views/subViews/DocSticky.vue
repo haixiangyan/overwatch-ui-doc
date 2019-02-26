@@ -7,32 +7,9 @@
             <div class="sample">
                 <ow-sticky>
                     <div class="item">
-                        <h1> Sticky Content </h1>
-                        <img src="../../assets/images/banner/banner-1.jpg">
+                        <img src="https://d1u1mce87gyfbn.cloudfront.net/hero/dva/hero-select-portrait.png">
                     </div>
                 </ow-sticky>
-                <div>
-                    <p>So many text here</p>
-                    <p>So many text here</p>
-                    <p>So many text here</p>
-                    <p>So many text here</p>
-                    <p>So many text here</p>
-                    <p>So many text here</p>
-                    <p>So many text here</p>
-                    <p>So many text here</p>
-                    <p>So many text here</p>
-                    <p>So many text here</p>
-                    <p>So many text here</p>
-                    <p>So many text here</p>
-                    <p>So many text here</p>
-                    <p>So many text here</p>
-                    <p>So many text here</p>
-                    <p>So many text here</p>
-                    <p>So many text here</p>
-                    <p>So many text here</p>
-                    <p>So many text here</p>
-                    <p>So many text here</p>
-                </div>
             </div>
             <pre>
                 <code class="html">{{sample.basicHtml}}</code>
@@ -43,33 +20,10 @@
             <p>You may want it to be pinned on some spot, then you can use <code>offsetTop</code> to define the offset.</p>
             <div class="sample">
                 <ow-sticky :offset-top="400">
-                    <div class="item">
-                        <h1> Sticky Content </h1>
-                        <img src="../../assets/images/banner/banner-2.jpg">
+                    <div class="item right">
+                        <img src="https://d1u1mce87gyfbn.cloudfront.net/hero/widowmaker/hero-select-portrait.png">
                     </div>
                 </ow-sticky>
-                <div>
-                    <p>So many text here</p>
-                    <p>So many text here</p>
-                    <p>So many text here</p>
-                    <p>So many text here</p>
-                    <p>So many text here</p>
-                    <p>So many text here</p>
-                    <p>So many text here</p>
-                    <p>So many text here</p>
-                    <p>So many text here</p>
-                    <p>So many text here</p>
-                    <p>So many text here</p>
-                    <p>So many text here</p>
-                    <p>So many text here</p>
-                    <p>So many text here</p>
-                    <p>So many text here</p>
-                    <p>So many text here</p>
-                    <p>So many text here</p>
-                    <p>So many text here</p>
-                    <p>So many text here</p>
-                    <p>So many text here</p>
-                </div>
             </div>
             <pre>
                 <code class="html">{{sample.offsetTopHtml}}</code>
@@ -115,14 +69,12 @@
     .sample {
         margin-bottom: 20px;
         .item {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            border: 4px solid $--color-danger;
-            border-radius: $--border-radius-base;
-            background: $--color-white;
+            background: transparent;
+            &.right {
+                text-align: right;
+            }
             img {
-                width: 300px;
+                background: transparent;
             }
         }
     }
