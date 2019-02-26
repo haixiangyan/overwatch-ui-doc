@@ -76,10 +76,10 @@
         data() {
             return {
                 backgrounds: [
-                    'https://media.alienwarearena.com/media/overwatch-2-5.jpg',
-                    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSoM7AjT6Y8nuzuRakLdjdeARa9jj0WCRKQUCvtyOE92-8RJn0',
-                    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnvg4-lbHzB4b5BzQHRvvNy9m5ZuHdzCypWzpdVx9ImvW6oyut',
-                    'https://hdwallpaperim.com/wp-content/uploads/2017/08/23/457693-Overwatch-Reaper_Overwatch-748x421.jpg'
+                    'https://glitch.asia/wp-content/uploads/sites/43/2017/10/Skullyatta5.0.jpg',
+                    'https://wpmisc.com/sites/default/files/wallpaper/games/69807/overwatch-genji-hd-wallpapers-69807-7161793.png',
+                    'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/314a525b-3386-4cc8-b6c8-b15e7d83e08a/daa9i7k-7c562592-edfa-411d-b6cd-06535644063e.jpg/v1/fill/w_1192,h_670,q_70,strp/reaper___overwatch_wallpaper_by_raycorethecrawler_daa9i7k-pre.jpg',
+                    'https://i.imgur.com/n1b4ZIb.jpg'
                 ]
             }
         },
