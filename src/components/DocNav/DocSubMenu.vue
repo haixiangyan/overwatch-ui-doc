@@ -29,6 +29,12 @@
                         ],
                     },
                     {
+                        type: 'GAME',
+                        urls: [
+                            {title: 'Hero', url: '/components/hero'}
+                        ]
+                    },
+                    {
                         type: 'NAVIGATION',
                         urls: [
                             {title: 'Nav', url: '/components/nav'},

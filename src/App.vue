@@ -45,5 +45,8 @@
             background: url("./assets/images/bg.jpg") no-repeat center;
             background-size: cover;
         }
+        .sample {
+            margin-bottom: 20px;
+        }
     }
 </style>

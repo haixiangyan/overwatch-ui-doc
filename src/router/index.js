@@ -27,6 +27,7 @@ import DocUploader from '../views/subViews/DocUploader'
 import DocSticky from '../views/subViews/DocSticky'
 import DocScroll from '../views/subViews/DocScroll'
 import DocDatePicker from '../views/subViews/DocDatePicker'
+import DocHero from '../views/subViews/DocHero'
 
 Vue.use(Router)
 
@@ -157,6 +158,11 @@ const router = new Router({
             path: '/components/date-picker',
             name: 'date-picker',
             component: DocDatePicker
+        },
+        {
+            path: '/components/hero',
+            name: 'hero',
+            component: DocHero
         }
     ]
 })
