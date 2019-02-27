@@ -9,57 +9,57 @@
                     <ow-carousel-item name="1">
                         <div class="box">
                             <div class="item">
-                                <img src="../../assets/images/hero/icon-portrait-0.png" alt="portrait">
+                                <img src="https://d1u1mce87gyfbn.cloudfront.net/hero/ana/icon-portrait.png" alt="portrait">
                             </div>
                             <span class="item">
-                                <img src="../../assets/images/hero/icon-portrait-1.png" alt="portrait">
+                                <img src="https://d1u1mce87gyfbn.cloudfront.net/hero/ashe/icon-portrait.png" alt="portrait">
                             </span>
                             <span class="item">
-                                <img src="../../assets/images/hero/icon-portrait-2.png" alt="portrait">
+                                <img src="https://d1u1mce87gyfbn.cloudfront.net/hero/baptiste/icon-portrait.png" alt="portrait">
                             </span>
                             <span class="item">
-                                <img src="../../assets/images/hero/icon-portrait-3.png" alt="portrait">
+                                <img src="https://d1u1mce87gyfbn.cloudfront.net/hero/bastion/icon-portrait.png" alt="portrait">
                             </span>
                             <span class="item">
-                                <img src="../../assets/images/hero/icon-portrait-4.png" alt="portrait">
+                                <img src="https://d1u1mce87gyfbn.cloudfront.net/hero/brigitte/icon-portrait.png" alt="portrait">
                             </span>
                         </div>
                     </ow-carousel-item>
                     <ow-carousel-item name="2">
                         <div class="box">
                             <div class="item">
-                                <img src="../../assets/images/hero/icon-portrait-5.png" alt="portrait">
+                                <img src="https://d1u1mce87gyfbn.cloudfront.net/hero/dva/icon-portrait.png" alt="portrait">
                             </div>
                             <span class="item">
-                                <img src="../../assets/images/hero/icon-portrait-6.png" alt="portrait">
+                                <img src="https://d1u1mce87gyfbn.cloudfront.net/hero/genji/icon-portrait.png" alt="portrait">
                             </span>
                             <span class="item">
-                                <img src="../../assets/images/hero/icon-portrait-7.png" alt="portrait">
+                                <img src="https://d1u1mce87gyfbn.cloudfront.net/hero/doomfist/icon-portrait.png" alt="portrait">
                             </span>
                             <span class="item">
-                                <img src="../../assets/images/hero/icon-portrait-8.png" alt="portrait">
+                                <img src="https://d1u1mce87gyfbn.cloudfront.net/hero/hanzo/icon-portrait.png" alt="portrait">
                             </span>
                             <span class="item">
-                                <img src="../../assets/images/hero/icon-portrait-9.png" alt="portrait">
+                                <img src="https://d1u1mce87gyfbn.cloudfront.net/hero/junkrat/icon-portrait.png" alt="portrait">
                             </span>
                         </div>
                     </ow-carousel-item>
                     <ow-carousel-item name="3">
                         <div class="box">
                             <div class="item">
-                                <img src="../../assets/images/hero/icon-portrait-10.png" alt="portrait">
+                                <img src="https://d1u1mce87gyfbn.cloudfront.net/hero/lucio/icon-portrait.png" alt="portrait">
                             </div>
                             <span class="item">
-                                <img src="../../assets/images/hero/icon-portrait-11.png" alt="portrait">
+                                <img src="https://d1u1mce87gyfbn.cloudfront.net/hero/mccree/icon-portrait.png" alt="portrait">
                             </span>
                             <span class="item">
-                                <img src="../../assets/images/hero/icon-portrait-12.png" alt="portrait">
+                                <img src="https://d1u1mce87gyfbn.cloudfront.net/hero/mei/icon-portrait.png" alt="portrait">
                             </span>
                             <span class="item">
-                                <img src="../../assets/images/hero/icon-portrait-13.png" alt="portrait">
+                                <img src="https://d1u1mce87gyfbn.cloudfront.net/hero/mercy/icon-portrait.png" alt="portrait">
                             </span>
                             <span class="item">
-                                <img src="../../assets/images/hero/icon-portrait-14.png" alt="portrait">
+                                <img src="https://d1u1mce87gyfbn.cloudfront.net/hero/moira/icon-portrait.png" alt="portrait">
                             </span>
                         </div>
                     </ow-carousel-item>
@@ -81,30 +81,30 @@
                     <ow-carousel-item name="1">
                         <div class="box">
                             <div class="game">
-                                <img src="../../assets/images/banner/c-1.jpg" alt="portrait">
+                                <img src="https://d1u1mce87gyfbn.cloudfront.net/media/thumbnail/genji-screenshot-002.jpg" alt="portrait">
                             </div>
                             <div class="game">
-                                <img src="../../assets/images/banner/c-2.jpg" alt="portrait">
+                                <img src="https://d1u1mce87gyfbn.cloudfront.net/media/thumbnail/genji-screenshot-003.jpg" alt="portrait">
                             </div>
                         </div>
                     </ow-carousel-item>
                     <ow-carousel-item name="2">
                         <div class="box">
                             <div class="game">
-                                <img src="../../assets/images/banner/c-3.jpg" alt="portrait">
+                                <img src="https://d1u1mce87gyfbn.cloudfront.net/media/thumbnail/petra-screenshot-001.jpg" alt="portrait">
                             </div>
                             <div class="game">
-                                <img src="../../assets/images/banner/c-4.jpg" alt="portrait">
+                                <img src="https://d1u1mce87gyfbn.cloudfront.net/media/thumbnail/petra-screenshot-002.jpg" alt="portrait">
                             </div>
                         </div>
                     </ow-carousel-item>
                     <ow-carousel-item name="3">
                         <div class="box">
                             <div class="game">
-                                <img src="../../assets/images/banner/c-5.jpg" alt="portrait">
+                                <img src="https://bnetcmsus-a.akamaihd.net/cms/page_media/7KF93I7WI5571516141975739.jpg" alt="portrait">
                             </div>
                             <div class="game">
-                                <img src="../../assets/images/banner/c-6.jpg" alt="portrait">
+                                <img src="https://bnetcmsus-a.akamaihd.net/cms/page_media/DWOKFGYB1SG61516141975756.jpg" alt="portrait">
                             </div>
                         </div>
                     </ow-carousel-item>
@@ -120,17 +120,17 @@
                 <ow-carousel :is-auto-play="false" :selected.sync="selected3">
                     <ow-carousel-item name="1">
                         <div class="large-box">
-                            <img src="../../assets/images/banner/banner-1.jpg" alt="portrait">
+                            <img src="https://d1u1mce87gyfbn.cloudfront.net/media/thumbnail/mccree-animated-short.jpg" alt="portrait">
                         </div>
                     </ow-carousel-item>
                     <ow-carousel-item name="2">
                         <div class="large-box">
-                            <img src="../../assets/images/banner/banner-2.jpg" alt="portrait">
+                            <img src="https://d1u1mce87gyfbn.cloudfront.net/media/thumbnail/roadhog-gameplay.jpg" alt="portrait">
                         </div>
                     </ow-carousel-item>
                     <ow-carousel-item name="3">
                         <div class="large-box">
-                            <img src="../../assets/images/banner/banner-3.jpg" alt="portrait">
+                            <img src="https://d1u1mce87gyfbn.cloudfront.net/media/thumbnail/reaper-gameplay.jpg" alt="portrait">
                         </div>
                     </ow-carousel-item>
                 </ow-carousel>
@@ -191,7 +191,7 @@
         height: 400px;
     }
     .box {
-        height: 300px;
+        height: 250px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -199,7 +199,7 @@
         .item {
             margin: 0 8px;
             img {
-                border-radius: 50%;
+                border-radius: 4px;
                 background: #454343;
                 transition: all .3s;
                 &:hover {
@@ -209,7 +209,7 @@
         }
         .game {
             img {
-                width: 300px;
+                width: 450px;
                 margin: 0 8px;
                 transition: transform .3s;
                 &:hover {
