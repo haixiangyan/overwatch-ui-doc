@@ -7,7 +7,7 @@
             <!--Basic-->
             <h2>Basic</h2>
             <div class="sample">
-                <ow-scroll style="border: 1px solid red;" :height="400">
+                <ow-scroll style="border: 2px solid #FFC429; border-radius: 4px" :height="400">
                     <p>Text1</p>
                     <p>Text2</p>
                     <p>Text3</p>
