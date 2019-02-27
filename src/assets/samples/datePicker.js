@@ -8,8 +8,7 @@ data() {
     }
 }`,
 rangeHtml: `
-<ow-date-picker v-model="date" :range="range"></ow-date-picker>
-    `,
+<ow-date-picker v-model="date" :range="range"></ow-date-picker>`,
 rangeJs: `
 data() {
     return {
