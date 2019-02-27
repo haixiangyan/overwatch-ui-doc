@@ -15,6 +15,20 @@ color: `
 <ow-blood residualColor="#3B9CE1" goneColor="#909399" :total="150" :residual="50"></ow-blood>
 <ow-blood residualColor="#DE4561" goneColor="#909399" :total="200" :residual="150"></ow-blood>`,
 textColor: `
-<ow-blood textTotalColor="#3B9CE1" textResidualColor="#909399" residualColor="#3B9CE1" goneColor="#909399" :total="150" :residual="50"></ow-blood>
-<ow-blood textTotalColor="#DE4561" textResidualColor="#909399" residualColor="#DE4561" goneColor="#909399" :total="200" :residual="150"></ow-blood>`
+<ow-blood 
+    totalTextColor="#3B9CE1" 
+    residualTextColor="#909399" 
+    residualColor="#3B9CE1" 
+    goneColor="#909399" 
+    :total="150" 
+    :residual="50">
+</ow-blood>
+<ow-blood 
+    totalTextColor="#DE4561" 
+    residualTextColor="#909399" 
+    residualColor="#DE4561" 
+    goneColor="#909399" 
+    :total="200" 
+    :residual="150">
+</ow-blood>`
 }
