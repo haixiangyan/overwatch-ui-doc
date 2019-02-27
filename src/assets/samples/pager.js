@@ -1,6 +1,4 @@
 export default {
-   basicHtml: `
-<ow-pager :total="20" :current="5"></ow-pager>`,
     syncHtml: `
 <ow-pager :total="20" :current.sync="current"></ow-pager>`,
     syncJs: `

@@ -4,16 +4,7 @@
             <h1>Pager</h1>
             <p>To improve user experience on table navigation, you can use Pager.</p>
 
-            <h2>Basic</h2>
-            <p>Use <code>total</code> and <code>current</code> to initialize it.</p>
-            <div class="sample">
-                <ow-pager :total="20" :current="5"></ow-pager>
-            </div>
-            <pre>
-                <code class="html">{{sample.basicHtml}}</code>
-            </pre>
-
-            <h2>Listener</h2>
+            <h2>Two-way Binding</h2>
             <p>You can use <code>.sync</code> to synchronize <code>current</code>.</p>
             <div class="sample">
                 <ow-pager :total="20" :current.sync="current1"></ow-pager>
