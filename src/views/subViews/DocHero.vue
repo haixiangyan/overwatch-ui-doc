@@ -4,13 +4,13 @@
             <h1>Hero</h1>
             <p>You can use this component to make your hero list!</p>
             <h2>Basic</h2>
-            <div class="sample all-heroes">
+            <div class="sample">
                 <p>You are selecting <strong>{{selected}}</strong></p>
                 <div>
-                    <ow-hero @click="onClick(hero)" :is-active="hero === selected" v-for="hero in heroes1" :hero="hero"></ow-hero>
+                    <ow-hero class="hero-item" @click="onClick(hero)" :is-active="hero === selected" v-for="hero in heroes1" :hero="hero"></ow-hero>
                 </div>
                 <div>
-                    <ow-hero @click="onClick(hero)" :is-active="hero === selected" v-for="hero in heroes2" :hero="hero"></ow-hero>
+                    <ow-hero class="hero-item" @click="onClick(hero)" :is-active="hero === selected" v-for="hero in heroes2" :hero="hero"></ow-hero>
                 </div>
             </div>
             <p>Hero names could be: </p>
@@ -102,5 +102,8 @@
 
 <style scoped lang="scss">
 .doc-hero {
+    .hero-item {
+        margin: 8px 4px;
+    }
 }
 </style>
