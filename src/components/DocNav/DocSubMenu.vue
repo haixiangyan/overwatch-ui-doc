@@ -31,7 +31,8 @@
                     {
                         type: 'GAME',
                         urls: [
-                            {title: 'Hero', url: '/components/hero'}
+                            {title: 'Hero', url: '/components/hero'},
+                            {title: 'Blood', url: '/components/blood'}
                         ]
                     },
                     {

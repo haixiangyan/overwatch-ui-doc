@@ -28,6 +28,7 @@ import DocSticky from '../views/subViews/DocSticky'
 import DocScroll from '../views/subViews/DocScroll'
 import DocDatePicker from '../views/subViews/DocDatePicker'
 import DocHero from '../views/subViews/DocHero'
+import DocBlood from '../views/subViews/DocBlood'
 
 Vue.use(Router)
 
@@ -163,6 +164,11 @@ const router = new Router({
             path: '/components/hero',
             name: 'hero',
             component: DocHero
+        },
+        {
+            path: '/components/blood',
+            name: 'blood',
+            component: DocBlood
         }
     ]
 })
