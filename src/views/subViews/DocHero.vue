@@ -7,10 +7,10 @@
             <div class="sample">
                 <p>You are selecting <strong>{{selected}}</strong></p>
                 <div>
-                    <ow-hero class="hero-item" @click="onClick(hero)" :is-active="hero === selected" v-for="hero in heroes1" :hero="hero"></ow-hero>
+                    <ow-hero class="hero-item" @click="onClick(hero)" :is-active="hero === selected" v-for="hero in heroes1" :key="hero" :hero="hero"></ow-hero>
                 </div>
                 <div>
-                    <ow-hero class="hero-item" @click="onClick(hero)" :is-active="hero === selected" v-for="hero in heroes2" :hero="hero"></ow-hero>
+                    <ow-hero class="hero-item" @click="onClick(hero)" :is-active="hero === selected" v-for="hero in heroes2" :key="hero" :hero="hero"></ow-hero>
                 </div>
             </div>
             <p>Hero names could be: </p>
