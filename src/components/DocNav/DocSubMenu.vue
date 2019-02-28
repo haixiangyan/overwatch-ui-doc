@@ -32,7 +32,8 @@
                         type: 'GAME',
                         urls: [
                             {title: 'Hero', url: '/components/hero'},
-                            {title: 'Blood', url: '/components/blood'}
+                            {title: 'Blood', url: '/components/blood'},
+                            {title: 'Badge', url: '/components/badge'},
                         ]
                     },
                     {

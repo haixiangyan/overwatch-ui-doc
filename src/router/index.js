@@ -29,6 +29,7 @@ import DocScroll from '../views/subViews/DocScroll'
 import DocDatePicker from '../views/subViews/DocDatePicker'
 import DocHero from '../views/subViews/DocHero'
 import DocBlood from '../views/subViews/DocBlood'
+import DocBadge from '../views/subViews/DocBadge'
 
 Vue.use(Router)
 
@@ -169,6 +170,11 @@ const router = new Router({
             path: '/components/blood',
             name: 'blood',
             component: DocBlood
+        },
+        {
+            path: '/components/badge',
+            name: 'badge',
+            component: DocBadge
         }
     ]
 })
