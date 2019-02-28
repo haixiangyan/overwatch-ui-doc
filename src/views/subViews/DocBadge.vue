@@ -33,7 +33,7 @@
 
             <h2>Another Way to Display</h2>
             <p>You can set it as an inline-block element aside other elements.</p>
-            <div class="sample">
+            <div class="sample block">
                 <span>MESSAGE</span>
                 <ow-badge title="NEW"></ow-badge>
             </div>
@@ -42,6 +42,19 @@
             </pre>
 
             <h2>Properties</h2>
+            <table>
+                <thead>
+                <tr> <th>Property</th> <th>Description</th> <th>Type</th> <th>Default</th> </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>title</td><td>OwBadge content</td><td>String</td><td>-</td>
+                </tr>
+                <tr>
+                    <td>is-dot</td><td>If it's in dot state</td><td>String</td><td>"left"</td>
+                </tr>
+                </tbody>
+            </table>
         </doc-post>
     </div>
 </template>
@@ -73,6 +86,10 @@
         border-radius: 4px;
         .badge-item {
             margin-right: 40px;
+        }
+        &.block {
+            width: 300px;
+            justify-content: space-between;
         }
     }
 }
