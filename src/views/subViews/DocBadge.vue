@@ -14,7 +14,7 @@
                 </ow-badge>
             </div>
             <pre>
-                <code class="html"></code>
+                <code class="html">{{sample.basic}}</code>
             </pre>
 
             <h2>Dot</h2>
@@ -28,25 +28,47 @@
                 </ow-badge>
             </div>
             <pre>
-                <code class="html"></code>
+                <code class="html">{{sample.dot}}</code>
             </pre>
 
             <h2>Another Way to Display</h2>
             <p>You can set it as an inline-block element aside other elements.</p>
-            <div class="sample"></div>
+            <div class="sample block">
+                <span>MESSAGE</span>
+                <ow-badge title="NEW"></ow-badge>
+            </div>
             <pre>
-                <code class="html"></code>
+                <code class="html">{{sample.block}}</code>
             </pre>
 
             <h2>Properties</h2>
+            <table>
+                <thead>
+                <tr> <th>Property</th> <th>Description</th> <th>Type</th> <th>Default</th> </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>title</td><td>OwBadge content</td><td>String</td><td>-</td>
+                </tr>
+                <tr>
+                    <td>is-dot</td><td>If it's in dot state</td><td>String</td><td>"left"</td>
+                </tr>
+                </tbody>
+            </table>
         </doc-post>
     </div>
 </template>
 
 <script>
+    import sample from '../../assets/samples/badge'
     import DocPost from '../../components/DocPost/DocPost'
     export default {
         name: "DocBadge",
+        data() {
+            return {
+                sample
+            }
+        },
         components: {
             DocPost
         }
@@ -56,10 +78,18 @@
 <style scoped lang="scss">
 .doc-badge {
     .sample {
-        padding: 8px 0;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        color: white;
         background: #464F6A;
+        border-radius: 4px;
         .badge-item {
             margin-right: 40px;
+        }
+        &.block {
+            width: 300px;
+            justify-content: space-between;
         }
     }
 }
