@@ -47,7 +47,7 @@
             DB.getMessages((messages) => {
                 this.messages = messages
 
-                this.initRandomColors()
+                this.initRandomColors(messages)
             })
         },
         methods: {
@@ -60,7 +60,7 @@
 
                 this.scrollToBottom()
             },
-            initRandomColors() {
+            initRandomColors(messages) {
                 for (let i = 0; i < messages.length; i++) {
                     this.itemColors.push(this.getRandomColor())
                 }
