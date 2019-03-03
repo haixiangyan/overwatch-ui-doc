@@ -60,14 +60,27 @@
 
 <style scoped lang="scss">
 .doc-post {
+    @include pc {
+        width: 66vw;
+        margin: 5vh 3vw 2vh auto;
+    }
+    @include tablet {
+        width: 66vw;
+        margin: 5vh 3vw 2vh auto;
+    }
+    margin: 5vh 3vw;
     position: relative;
     padding: 10px 20px 0;
-    margin: 5vh 3vw 2vh auto;
-    width: 66vw;
     background: rgba(252, 246, 229, 0.95);
 
     .author {
-        display: flex;
+        @include pc {
+            display: flex;
+        }
+        @include tablet {
+            display: flex;
+        }
+        display: none;
         position: fixed;
         top: 5vh;
         right: 3vw;
