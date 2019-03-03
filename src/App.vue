@@ -8,7 +8,7 @@
                 <doc-nav class="doc-nav"></doc-nav>
             </ow-sider>
             <!--Right hand side documents-->
-            <ow-layout>
+            <ow-layout class="app-content-wrapper">
                 <ow-content>
                     <router-view></router-view>
                 </ow-content>
@@ -53,6 +53,9 @@
             @include tablet {
                 display: block;
             }
+        }
+        .app-content-wrapper {
+            width: 100%;
         }
         .sample {
             margin-bottom: 20px;
