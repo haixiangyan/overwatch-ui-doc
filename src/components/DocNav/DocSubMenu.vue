@@ -35,6 +35,7 @@
                             {title: 'Blood', url: '/components/blood'},
                             {title: 'Badge', url: '/components/badge'},
                             {title: 'Select', url: '/components/select'},
+                            {title: 'Slider', url: '/components/slider'},
                         ]
                     },
                     {
