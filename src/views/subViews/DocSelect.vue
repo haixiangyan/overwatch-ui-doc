@@ -71,6 +71,9 @@
                 <tr>
                     <td>max-height</td><td>Max height of dropdown</td><td>Number</td><td>274</td>
                 </tr>
+                <tr>
+                    <td>disabled</td><td>If OwSelect is disabled</td><td>Boolean</td><td>false</td>
+                </tr>
                 </tbody>
             </table>
         </doc-post>
