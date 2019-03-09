@@ -123,7 +123,6 @@
 
 <script>
     import sample from '../../assets/samples/nav'
-    import DocPost from '../../components/DocPost/DocPost'
     export default {
         name: "DocNav",
         data() {
@@ -134,9 +133,6 @@
                 selected4: 'home',
                 sample
             }
-        },
-        components: {
-            DocPost
         },
         methods: {
             onUpdateSelected(newSelected) {

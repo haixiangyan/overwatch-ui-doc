@@ -106,7 +106,6 @@
 
 <script>
     import sample from '../../assets/samples/button'
-    import DocPost from '../../components/DocPost/DocPost'
     export default {
         name: "DocButton",
         data() {
@@ -114,9 +113,6 @@
                 sample,
                 isLoading: true
             }
-        },
-        components: {
-            DocPost
         }
     }
 </script>

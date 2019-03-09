@@ -157,7 +157,6 @@
 
 <script>
     import sample from '../../assets/samples/table'
-    import DocPost from '../../components/DocPost/DocPost'
 
     export default {
         name: "DocTable",
@@ -198,9 +197,6 @@
                 selected5: [],
                 loading: true
             }
-        },
-        components: {
-            DocPost
         },
         methods: {
             editItem(item) {

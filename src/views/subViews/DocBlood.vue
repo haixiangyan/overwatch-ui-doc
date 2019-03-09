@@ -91,16 +91,12 @@
 
 <script>
     import sample from '../../assets/samples/blood'
-    import DocPost from '../../components/DocPost/DocPost'
     export default {
         name: "DocBlood",
         data() {
             return {
                 sample
             }
-        },
-        components: {
-            DocPost
         }
     }
 </script>

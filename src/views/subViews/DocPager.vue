@@ -49,7 +49,6 @@
 
 <script>
     import sample from '../../assets/samples/pager'
-    import DocPost from '../../components/DocPost/DocPost'
     export default {
         name: "DocPager",
         data() {
@@ -58,9 +57,6 @@
                 current1: 5,
                 current2: 5
             }
-        },
-        components: {
-            DocPost
         },
         methods: {
             onUpdateCurrent(newCurrent) {

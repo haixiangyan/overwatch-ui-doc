@@ -61,16 +61,12 @@
 
 <script>
     import sample from '../../assets/samples/badge'
-    import DocPost from '../../components/DocPost/DocPost'
     export default {
         name: "DocBadge",
         data() {
             return {
                 sample
             }
-        },
-        components: {
-            DocPost
         }
     }
 </script>

@@ -127,7 +127,6 @@
 </template>
 
 <script>
-    import DocPost from '../../components/DocPost/DocPost'
     import sample from '../../assets/samples/uploader'
     export default {
         name: "DocUploader",
@@ -149,9 +148,6 @@
                     {name: 'styles.css', size: 876, type: 'text/css', status: 'FAIL'},
                 ],
             }
-        },
-        components: {
-            DocPost
         },
         methods: {
             getPreviewUrl(response) {

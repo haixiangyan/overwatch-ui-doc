@@ -110,16 +110,12 @@
 
 <script>
     import sample from '../../assets/samples/grid'
-    import DocPost from '../../components/DocPost/DocPost'
     export default {
         name: "DocGrid",
         data() {
             return {
                 sample
             }
-        },
-        components: {
-            DocPost
         }
     }
 </script>

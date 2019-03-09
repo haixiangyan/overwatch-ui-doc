@@ -126,16 +126,12 @@
 
 <script>
     import sample from '../../assets/samples/popover'
-    import DocPost from '../../components/DocPost/DocPost'
     export default {
         name: "DocPopover",
         data() {
             return {
                 sample
             }
-        },
-        components: {
-            DocPost
         }
     }
 </script>

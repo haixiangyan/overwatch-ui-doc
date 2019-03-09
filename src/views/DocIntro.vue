@@ -38,13 +38,8 @@
 </template>
 
 <script>
-    import DocPost from '../components/DocPost/DocPost'
-
     export default {
         name: 'DocIntro',
-        components: {
-            DocPost
-        }
     }
 </script>
 

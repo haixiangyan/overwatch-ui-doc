@@ -28,12 +28,8 @@
 </template>
 
 <script>
-    import DocPost from '../components/DocPost/DocPost'
     export default {
         name: "DocHighlight",
-        components: {
-            DocPost
-        }
     }
 </script>
 

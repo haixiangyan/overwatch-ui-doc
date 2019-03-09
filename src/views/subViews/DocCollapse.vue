@@ -55,7 +55,6 @@
 
 <script>
     import sample from '../../assets/samples/collapse'
-    import DocPost from '../../components/DocPost/DocPost'
     export default {
         name: "DocCollapse",
         data() {
@@ -64,9 +63,6 @@
                 selectedCollapse1: ['1', '2'],
                 selectedCollapse2: ['1']
             }
-        },
-        components: {
-            DocPost
         }
     }
 </script>

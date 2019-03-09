@@ -48,16 +48,12 @@
 
 <script>
     import sample from '../../assets/samples/icon'
-    import DocPost from '../../components/DocPost/DocPost'
     export default {
         name: "DocIcon",
         data() {
             return {
                 sample
             }
-        },
-        components: {
-            DocPost
         }
     }
 </script>

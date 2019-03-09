@@ -132,16 +132,12 @@
 
 <script>
     import sample from '../../assets/samples/scroll'
-    import DocPost from '../../components/DocPost/DocPost'
     export default {
         name: "DocScroll",
         data() {
             return {
                 sample
             }
-        },
-        components: {
-            DocPost
         }
     }
 </script>

@@ -47,16 +47,12 @@
 
 <script>
     import sample from '../../assets/samples/sticky'
-    import DocPost from '../../components/DocPost/DocPost'
     export default {
         name: "DocSticky",
         data() {
             return {
                 sample
             }
-        },
-        components: {
-            DocPost
         }
     }
 </script>

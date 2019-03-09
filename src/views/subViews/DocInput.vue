@@ -107,7 +107,6 @@
 
 <script>
     import sample from '../../assets/samples/input'
-    import DocPost from '../../components/DocPost/DocPost'
     export default {
         name: "DocInput",
         data() {
@@ -115,9 +114,6 @@
                 sample,
                 text: "Hello World"
             }
-        },
-        components: {
-            DocPost
         }
     }
 </script>

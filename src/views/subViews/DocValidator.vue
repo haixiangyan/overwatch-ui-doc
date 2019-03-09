@@ -60,7 +60,6 @@
 
 <script>
     import sample from '../../assets/samples/validator'
-    import DocPost from '../../components/DocPost/DocPost'
 
     export default {
         name: "DocValidator",
@@ -129,9 +128,6 @@
                 // Determine hint type
                 return Object.keys(errors).length > 0 ? 'danger' : 'success'
             },
-        },
-        components: {
-            DocPost
         },
         created() {
             // Add validator globally

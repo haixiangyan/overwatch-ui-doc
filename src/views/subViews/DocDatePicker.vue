@@ -46,7 +46,6 @@
 
 <script>
     import sample from '../../assets/samples/datePicker'
-    import DocPost from '../../components/DocPost/DocPost'
     export default {
         name: "DocDatePicker",
         data() {
@@ -56,9 +55,6 @@
                 date2: new Date(),
                 range: [new Date(1996, 7, 20), new Date(2020, 7, 1)]
             }
-        },
-        components: {
-            DocPost
         }
     }
 </script>

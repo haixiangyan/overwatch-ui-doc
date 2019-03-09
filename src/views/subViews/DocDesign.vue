@@ -70,7 +70,6 @@
 </template>
 
 <script>
-    import DocPost from '../../components/DocPost/DocPost'
     export default {
         name: "DocDesign",
         data() {
@@ -82,9 +81,6 @@
                     'https://i.imgur.com/n1b4ZIb.jpg'
                 ]
             }
-        },
-        components: {
-            DocPost
         },
         methods: {
             downloadImg(bg) {

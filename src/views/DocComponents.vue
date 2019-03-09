@@ -5,7 +5,6 @@
 </template>
 
 <script>
-    import DocPost from '../components/DocPost/DocPost'
     export default {
         name: "DocComponents",
         data() {
@@ -21,9 +20,6 @@
                 }
             }
         },
-        components: {
-            DocPost
-        }
     }
 </script>
 

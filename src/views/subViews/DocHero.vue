@@ -78,7 +78,6 @@
 
 <script>
     import sample from '../../assets/samples/hero'
-    import DocPost from '../../components/DocPost/DocPost'
     export default {
         name: "DocHero",
         data() {
@@ -93,9 +92,6 @@
             onClick(hero) {
                 this.selected = hero
             }
-        },
-        components: {
-            DocPost
         }
     }
 </script>

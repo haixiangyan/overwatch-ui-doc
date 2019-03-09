@@ -47,7 +47,6 @@
 
 <script>
     import sample from '../assets/samples/start'
-    import DocPost from '../components/DocPost/DocPost'
 
     export default {
         name: 'DocIntro',
@@ -55,9 +54,6 @@
             return {
                 sample
             }
-        },
-        components: {
-            DocPost
         }
     }
 </script>

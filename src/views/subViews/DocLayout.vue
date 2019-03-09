@@ -84,7 +84,6 @@
 
 <script>
     import sample from '../../assets/samples/layout'
-    import DocPost from '../../components/DocPost/DocPost'
     export default {
         name: "DocLayout",
         data() {
@@ -92,9 +91,6 @@
                 sample,
                 isVisible: true
             }
-        },
-        components: {
-            DocPost
         }
     }
 </script>

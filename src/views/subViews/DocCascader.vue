@@ -66,7 +66,6 @@
 <script>
     import district from '../../assets/samples/district'
     import sample from '../../assets/samples/cascader'
-    import DocPost from '../../components/DocPost/DocPost'
 
     function ajax(parentId = 0) {
         return new Promise((success, fail) => {
@@ -144,9 +143,6 @@
                     return item
                 })
             })
-        },
-        components: {
-            DocPost
         }
     }
 </script>

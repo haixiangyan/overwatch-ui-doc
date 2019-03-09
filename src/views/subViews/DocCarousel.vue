@@ -163,7 +163,6 @@
 
 <script>
     import sample from '../../assets/samples/carousel'
-    import DocPost from '../../components/DocPost/DocPost'
     export default {
         name: "DocCarousel",
         data() {
@@ -173,10 +172,7 @@
                 selected3: '1',
                 sample
             }
-        },
-        components: {
-            DocPost
-        },
+        }
     }
 </script>
 

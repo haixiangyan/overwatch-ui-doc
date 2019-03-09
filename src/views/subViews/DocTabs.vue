@@ -76,7 +76,6 @@
 
 <script>
     import sample from '../../assets/samples/tabs'
-    import DocPost from '../../components/DocPost/DocPost'
     export default {
         name: "DocTabs",
         data() {
@@ -85,9 +84,6 @@
                 selectedTab1: 'data',
                 selectedTab2: 'data'
             }
-        },
-        components: {
-            DocPost
         }
     }
 </script>
