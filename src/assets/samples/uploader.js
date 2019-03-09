@@ -2,7 +2,7 @@ export default {
 basicHtml: `
 <ow-uploader
     name="file"
-    action="https://upload-node-server.herokuapp.com/upload"
+    action="/your_upload_url"
     method="POST"
     :getPreviewUrl="getPreviewUrl"
     :file-list.sync="fileList">
@@ -27,7 +27,7 @@ methods: {
 maxSizeHtml: `
 <ow-uploader
     name="file"
-    action="https://upload-node-server.herokuapp.com/upload"
+    action="/your_upload_url"
     method="POST"
     :getPreviewUrl="getPreviewUrl"
     :max-size="1024*2014"
@@ -51,7 +51,7 @@ methods: {
 multipleFileHtml: `
 <ow-uploader
     name="file"
-    action="https://upload-node-server.herokuapp.com/upload"
+    action="/your_upload_url"
     method="POST"
     :getPreviewUrl="getPreviewUrl"
     :multiple="true"
@@ -75,7 +75,7 @@ methods: {
 fileTypeHtml: `
 <ow-uploader
     name="file"
-    action="https://upload-node-server.herokuapp.com/upload"
+    action="/your_upload_url"
     method="POST"
     :getPreviewUrl="getPreviewUrl"
     :multiple="true"

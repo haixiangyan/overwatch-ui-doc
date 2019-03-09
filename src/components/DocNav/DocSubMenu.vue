@@ -34,6 +34,8 @@
                             {title: 'Hero', url: '/components/hero'},
                             {title: 'Blood', url: '/components/blood'},
                             {title: 'Badge', url: '/components/badge'},
+                            {title: 'Select', url: '/components/select'},
+                            {title: 'Slider', url: '/components/slider'},
                         ]
                     },
                     {
@@ -88,14 +90,6 @@
     overflow: auto;
     height: 75vh;
     box-shadow: 0px 20px 20px -20px rgba(255,255,255,0.75);
-    /*Chrome*/
-    &::-webkit-scrollbar {
-        width: 0 !important;
-    }
-    /*IE 10+*/
-    -ms-overflow-style: none;
-    /*Firefox*/
-    overflow: -moz-scrollbars-none;
 
     .types {
         margin-bottom: 20px;

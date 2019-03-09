@@ -2,12 +2,16 @@
     <div class="doc-board-wrapper">
         <transition name="fade">
             <ul ref="board" v-show="isShow" class="board">
-                <li :class="getRandomColor()" v-for="message in messages" :key="message.id">[{{getFormattedDate(message.createdAt)}}]: {{message.attributes.content}}</li>
+                <li :class="itemColors[index]"
+                    v-for="(message, index) in messages"
+                    :key="message.id">
+                    [{{getFormattedDate(message.createdAt)}}]: {{message.attributes.content}}
+                </li>
             </ul>
         </transition>
 
         <div class="input-wrapper" :class="inputWrapperClasses">
-            <span :class="[getRandomColor()]">[Note]: </span>
+            <span :class="[mainColor]">[Note]: </span>
             <input
                 v-model="newMessage"
                 @focus="onFocus"
@@ -29,7 +33,9 @@
                 isShow: false,
                 newMessage: '',
                 messages: [],
-                colors: ['green', 'blue', 'orange']
+                colors: ['green', 'blue', 'orange'],
+                itemColors: [],
+                mainColor: ''
             }
         },
         computed: {
@@ -40,6 +46,8 @@
         mounted() {
             DB.getMessages((messages) => {
                 this.messages = messages
+
+                this.initRandomColors(messages)
             })
         },
         methods: {
@@ -51,6 +59,13 @@
                 this.isShow = true
 
                 this.scrollToBottom()
+            },
+            initRandomColors(messages) {
+                for (let i = 0; i < messages.length; i++) {
+                    this.itemColors.push(this.getRandomColor())
+                }
+
+                this.mainColor = this.getRandomColor()
             },
             getFormattedDate(dateObj) {
                 const year = dateObj.getFullYear()

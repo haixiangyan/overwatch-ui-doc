@@ -9,7 +9,7 @@
             <div class="sample">
                 <ow-uploader
                     name="file"
-                    action="https://upload-node-server.herokuapp.com/upload"
+                    action="/your_upload_url"
                     method="POST"
                     :getPreviewUrl="getPreviewUrl"
                     :file-list.sync="fileList">
@@ -29,7 +29,7 @@
             <div class="sample">
                 <ow-uploader
                     name="file"
-                    action="https://upload-node-server.herokuapp.com/upload"
+                    action="/your_upload_url"
                     method="POST"
                     :getPreviewUrl="getPreviewUrl"
                     :max-size="1024*2014"
@@ -50,7 +50,7 @@
             <div class="sample">
                 <ow-uploader
                     name="file"
-                    action="https://upload-node-server.herokuapp.com/upload"
+                    action="/your_upload_url"
                     method="POST"
                     :getPreviewUrl="getPreviewUrl"
                     :multiple="true"
@@ -71,7 +71,7 @@
             <div class="sample">
                 <ow-uploader
                     name="file"
-                    action="https://upload-node-server.herokuapp.com/upload"
+                    action="/your_upload_url"
                     method="POST"
                     :getPreviewUrl="getPreviewUrl"
                     :multiple="true"

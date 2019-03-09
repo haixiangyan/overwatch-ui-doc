@@ -4,11 +4,11 @@
         <div class="background"></div>
         <ow-layout>
             <!--Left hand side nav-->
-            <ow-sider>
+            <ow-sider class="app-sider">
                 <doc-nav class="doc-nav"></doc-nav>
             </ow-sider>
             <!--Right hand side documents-->
-            <ow-layout>
+            <ow-layout class="app-content-wrapper">
                 <ow-content>
                     <router-view></router-view>
                 </ow-content>
@@ -44,6 +44,18 @@
             height: 100vh;
             background: url("./assets/images/bg.jpg") no-repeat center;
             background-size: cover;
+        }
+        .app-sider {
+            display: none;
+            @include pc {
+                display: block;
+            }
+            @include tablet {
+                display: block;
+            }
+        }
+        .app-content-wrapper {
+            width: 100%;
         }
         .sample {
             margin-bottom: 20px;
