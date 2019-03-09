@@ -32,6 +32,7 @@ import DocBlood from '../views/subViews/DocBlood'
 import DocBadge from '../views/subViews/DocBadge'
 import DocSelect from '../views/subViews/DocSelect'
 import DocSlider from '../views/subViews/DocSlider'
+import DocSwitch from '../views/subViews/DocSwitch'
 
 Vue.use(Router)
 
@@ -187,6 +188,11 @@ const router = new Router({
             path: '/components/slider',
             name: 'slider',
             component: DocSlider
+        },
+        {
+            path: '/components/switch',
+            name: 'switch',
+            component: DocSwitch
         }
     ]
 })
