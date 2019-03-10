@@ -37,6 +37,7 @@
                             {title: 'Select', url: '/components/select'},
                             {title: 'Slider', url: '/components/slider'},
                             {title: 'Switch', url: '/components/switch'},
+                            {title: 'Label', url: '/components/label'},
                         ]
                     },
                     {

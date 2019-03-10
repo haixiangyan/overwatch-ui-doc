@@ -33,6 +33,7 @@ import DocBadge from '../views/subViews/DocBadge'
 import DocSelect from '../views/subViews/DocSelect'
 import DocSlider from '../views/subViews/DocSlider'
 import DocSwitch from '../views/subViews/DocSwitch'
+import DocLabel from '../views/subViews/DocLabel'
 
 Vue.use(Router)
 
@@ -193,6 +194,11 @@ const router = new Router({
             path: '/components/switch',
             name: 'switch',
             component: DocSwitch
+        },
+        {
+            path: '/components/label',
+            name: 'label',
+            component: DocLabel
         }
     ]
 })
