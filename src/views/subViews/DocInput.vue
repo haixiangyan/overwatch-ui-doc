@@ -99,6 +99,12 @@
                 <tr>
                     <td>hintType</td><td>Set type of hint, can be info, warning, danger, danger</td><td>String</td><td>-</td>
                 </tr>
+                <tr>
+                    <td>width</td><td>Width of input</td><td>Number</td><td>200</td>
+                </tr>
+                <tr>
+                    <td>rect</td><td>If it's a rectangle</td><td>Boolean</td><td>false</td>
+                </tr>
                 </tbody>
             </table>
         </doc-post>
