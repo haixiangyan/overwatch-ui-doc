@@ -34,19 +34,7 @@
                             {title: 'Hero', url: '/components/hero'},
                             {title: 'Blood', url: '/components/blood'},
                             {title: 'Badge', url: '/components/badge'},
-                            {title: 'Select', url: '/components/select'},
-                            {title: 'Slider', url: '/components/slider'},
-                            {title: 'Switch', url: '/components/switch'},
-                            {title: 'Label', url: '/components/label'},
                         ]
-                    },
-                    {
-                        type: 'NAVIGATION',
-                        urls: [
-                            {title: 'Nav', url: '/components/nav'},
-                            {title: 'Tabs', url: '/components/tabs'},
-                            {title: 'Carousel', url: '/components/carousel'},
-                        ],
                     },
                     {
                         type: 'BASIC',
@@ -61,16 +49,20 @@
                             {title: 'Table', url: '/components/table'},
                             {title: 'Pager', url: '/components/pager'},
                             {title: 'Scroll', url: '/components/scroll'},
+                            {title: 'Collapse', url: '/components/collapse'},
                         ],
                     },
                     {
                         type: 'FORM',
                         urls: [
                             {title: 'Input', url: '/components/input'},
+                            {title: 'Select', url: '/components/select'},
+                            {title: 'Slider', url: '/components/slider'},
+                            {title: 'Switch', url: '/components/switch'},
+                            {title: 'Label', url: '/components/label'},
                             {title: 'Validator', url: '/components/validator'},
                             {title: 'DatePicker', url: '/components/date-picker'},
                             {title: 'Uploader', url: '/components/uploader'},
-                            {title: 'Collapse', url: '/components/collapse'},
                             {title: 'Cascader', url: '/components/cascader'},
                         ],
                     },
@@ -79,6 +71,14 @@
                         urls: [
                             {title: 'Alert', url: '/components/alert'},
                             {title: 'Popover', url: '/components/popover'},
+                        ],
+                    },
+                    {
+                        type: 'NAVIGATION',
+                        urls: [
+                            {title: 'Nav', url: '/components/nav'},
+                            {title: 'Tabs', url: '/components/tabs'},
+                            {title: 'Carousel', url: '/components/carousel'},
                         ],
                     },
                 ]
