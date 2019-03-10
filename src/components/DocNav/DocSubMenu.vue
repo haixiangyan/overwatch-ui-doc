@@ -58,19 +58,19 @@
                         ],
                     },
                     {
-                        type: 'NAVIGATION',
-                        urls: [
-                            {title: 'Nav', url: '/components/nav'},
-                            {title: 'Tabs', url: '/components/tabs'},
-                            {title: 'Carousel', url: '/components/carousel'},
-                        ],
-                    },
-                    {
                         type: 'MESSAGE',
                         urls: [
                             {title: 'Alert', url: '/components/alert'},
                             {title: 'Modal', url: '/components/modal'},
                             {title: 'Popover', url: '/components/popover'},
+                        ],
+                    },
+                    {
+                        type: 'NAVIGATION',
+                        urls: [
+                            {title: 'Nav', url: '/components/nav'},
+                            {title: 'Tabs', url: '/components/tabs'},
+                            {title: 'Carousel', url: '/components/carousel'},
                         ],
                     },
                     {
