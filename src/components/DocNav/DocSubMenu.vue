@@ -34,9 +34,6 @@
                             {title: 'Hero', url: '/components/hero'},
                             {title: 'Blood', url: '/components/blood'},
                             {title: 'Badge', url: '/components/badge'},
-                            {title: 'Select', url: '/components/select'},
-                            {title: 'Slider', url: '/components/slider'},
-                            {title: 'Switch', url: '/components/switch'},
                         ]
                     },
                     {
@@ -50,11 +47,14 @@
                         type: 'FORM',
                         urls: [
                             {title: 'Input', url: '/components/input'},
-                            {title: 'Validator', url: '/components/validator'},
+                            {title: 'Select', url: '/components/select'},
+                            {title: 'Slider', url: '/components/slider'},
+                            {title: 'Switch', url: '/components/switch'},
+                            {title: 'Label', url: '/components/label'},
                             {title: 'DatePicker', url: '/components/date-picker'},
                             {title: 'Uploader', url: '/components/uploader'},
-                            {title: 'Collapse', url: '/components/collapse'},
                             {title: 'Cascader', url: '/components/cascader'},
+                            {title: 'Validator', url: '/components/validator'},
                         ],
                     },
                     {
@@ -79,6 +79,7 @@
                             {title: 'Table', url: '/components/table'},
                             {title: 'Pager', url: '/components/pager'},
                             {title: 'Scroll', url: '/components/scroll'},
+                            {title: 'Collapse', url: '/components/collapse'},
                         ],
                     },
                 ]
