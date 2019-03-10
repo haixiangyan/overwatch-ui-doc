@@ -46,11 +46,12 @@
                     {
                         type: 'FORM',
                         urls: [
+                            {title: 'Label', url: '/components/label'},
                             {title: 'Input', url: '/components/input'},
                             {title: 'Select', url: '/components/select'},
                             {title: 'Slider', url: '/components/slider'},
                             {title: 'Switch', url: '/components/switch'},
-                            {title: 'Label', url: '/components/label'},
+                            {title: 'Radio', url: '/components/radio'},
                             {title: 'DatePicker', url: '/components/date-picker'},
                             {title: 'Uploader', url: '/components/uploader'},
                             {title: 'Cascader', url: '/components/cascader'},
