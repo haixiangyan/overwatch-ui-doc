@@ -74,6 +74,9 @@
                 <tr>
                     <td>disabled</td><td>If OwSelect is disabled</td><td>Boolean</td><td>false</td>
                 </tr>
+                <tr>
+                    <td>width</td><td>Width of OwSelect</td><td>Number</td><td>200</td>
+                </tr>
                 </tbody>
             </table>
         </doc-post>

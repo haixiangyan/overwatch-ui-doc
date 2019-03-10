@@ -34,6 +34,7 @@ import DocSelect from '../views/subViews/DocSelect'
 import DocSlider from '../views/subViews/DocSlider'
 import DocSwitch from '../views/subViews/DocSwitch'
 import DocModal from '../views/subViews/DocModal'
+import DocLabel from '../views/subViews/DocLabel'
 
 Vue.use(Router)
 
@@ -199,6 +200,11 @@ const router = new Router({
             path: '/components/modal',
             name: 'modal',
             component: DocModal
+        },
+        {
+            path: '/components/label',
+            name: 'label',
+            component: DocLabel
         }
     ]
 })
