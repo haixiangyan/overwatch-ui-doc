@@ -95,6 +95,15 @@
     border-spacing: 0;
     border-collapse: collapse;
 }
+@media (max-width: 900px) {
+    .markdown-body table {
+        display: block;
+        visibility: hidden;
+        overflow: hidden;
+        width: 0;
+        height: 0;
+    }
+}
 
 .markdown-body td,
 .markdown-body th {

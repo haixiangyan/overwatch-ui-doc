@@ -97,7 +97,7 @@
             }
             &-desc {
                 @media (max-width:900px) {
-                    display: none;
+                    font-size: 1em;
                 }
                 position: absolute;
                 top: 50%;
