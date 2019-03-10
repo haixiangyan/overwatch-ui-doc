@@ -52,6 +52,7 @@
                             {title: 'Slider', url: '/components/slider'},
                             {title: 'Switch', url: '/components/switch'},
                             {title: 'Radio', url: '/components/radio'},
+                            {title: 'Checkbox', url: '/components/checkbox'},
                             {title: 'DatePicker', url: '/components/date-picker'},
                             {title: 'Uploader', url: '/components/uploader'},
                             {title: 'Cascader', url: '/components/cascader'},

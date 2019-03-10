@@ -36,6 +36,7 @@ import DocSwitch from '../views/subViews/DocSwitch'
 import DocModal from '../views/subViews/DocModal'
 import DocLabel from '../views/subViews/DocLabel'
 import DocRadio from '../views/subViews/DocRadio'
+import DocCheckbox from '../views/subViews/DocCheckbox'
 
 Vue.use(Router)
 
@@ -211,6 +212,11 @@ const router = new Router({
             path: '/components/radio',
             name: 'radio',
             component: DocRadio
+        },
+        {
+            path: '/components/checkbox',
+            name: 'checkbox',
+            component: DocCheckbox
         }
     ]
 })
