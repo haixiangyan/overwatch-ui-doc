@@ -40,26 +40,10 @@
                         ]
                     },
                     {
-                        type: 'NAVIGATION',
-                        urls: [
-                            {title: 'Nav', url: '/components/nav'},
-                            {title: 'Tabs', url: '/components/tabs'},
-                            {title: 'Carousel', url: '/components/carousel'},
-                        ],
-                    },
-                    {
                         type: 'BASIC',
                         urls: [
                             {title: 'Button', url: '/components/button'},
                             {title: 'Icon', url: '/components/icon'},
-                        ],
-                    },
-                    {
-                        type: 'DATA',
-                        urls: [
-                            {title: 'Table', url: '/components/table'},
-                            {title: 'Pager', url: '/components/pager'},
-                            {title: 'Scroll', url: '/components/scroll'},
                         ],
                     },
                     {
@@ -74,10 +58,27 @@
                         ],
                     },
                     {
+                        type: 'NAVIGATION',
+                        urls: [
+                            {title: 'Nav', url: '/components/nav'},
+                            {title: 'Tabs', url: '/components/tabs'},
+                            {title: 'Carousel', url: '/components/carousel'},
+                        ],
+                    },
+                    {
                         type: 'MESSAGE',
                         urls: [
                             {title: 'Alert', url: '/components/alert'},
+                            {title: 'Modal', url: '/components/modal'},
                             {title: 'Popover', url: '/components/popover'},
+                        ],
+                    },
+                    {
+                        type: 'DATA',
+                        urls: [
+                            {title: 'Table', url: '/components/table'},
+                            {title: 'Pager', url: '/components/pager'},
+                            {title: 'Scroll', url: '/components/scroll'},
                         ],
                     },
                 ]
