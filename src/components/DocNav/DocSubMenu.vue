@@ -44,32 +44,26 @@
                         ],
                     },
                     {
-                        type: 'DATA',
-                        urls: [
-                            {title: 'Table', url: '/components/table'},
-                            {title: 'Pager', url: '/components/pager'},
-                            {title: 'Scroll', url: '/components/scroll'},
-                            {title: 'Collapse', url: '/components/collapse'},
-                        ],
-                    },
-                    {
                         type: 'FORM',
                         urls: [
+                            {title: 'Label', url: '/components/label'},
                             {title: 'Input', url: '/components/input'},
                             {title: 'Select', url: '/components/select'},
                             {title: 'Slider', url: '/components/slider'},
                             {title: 'Switch', url: '/components/switch'},
-                            {title: 'Label', url: '/components/label'},
-                            {title: 'Validator', url: '/components/validator'},
+                            {title: 'Radio', url: '/components/radio'},
+                            {title: 'Checkbox', url: '/components/checkbox'},
                             {title: 'DatePicker', url: '/components/date-picker'},
                             {title: 'Uploader', url: '/components/uploader'},
                             {title: 'Cascader', url: '/components/cascader'},
+                            {title: 'Validator', url: '/components/validator'},
                         ],
                     },
                     {
                         type: 'MESSAGE',
                         urls: [
                             {title: 'Alert', url: '/components/alert'},
+                            {title: 'Modal', url: '/components/modal'},
                             {title: 'Popover', url: '/components/popover'},
                         ],
                     },
@@ -79,6 +73,15 @@
                             {title: 'Nav', url: '/components/nav'},
                             {title: 'Tabs', url: '/components/tabs'},
                             {title: 'Carousel', url: '/components/carousel'},
+                        ],
+                    },
+                    {
+                        type: 'DATA',
+                        urls: [
+                            {title: 'Table', url: '/components/table'},
+                            {title: 'Pager', url: '/components/pager'},
+                            {title: 'Scroll', url: '/components/scroll'},
+                            {title: 'Collapse', url: '/components/collapse'},
                         ],
                     },
                 ]

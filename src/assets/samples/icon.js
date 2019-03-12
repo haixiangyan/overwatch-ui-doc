@@ -1,8 +1,8 @@
 export default {
 color: `
-<ow-icon class="icon" name="setting" color="red"></ow-icon>
-<ow-icon class="icon" name="remove" color="green"></ow-icon>
-<ow-icon class="icon" name="user" color="blue"></ow-icon>`,
+<ow-icon name="setting" color="#DE4561"></ow-icon>
+<ow-icon name="remove" color="#3B9CE1"></ow-icon>
+<ow-icon name="user" color="#FFC429"></ow-icon>`,
 loading: `
 <ow-icon name="loading" :is-loading="true"></ow-icon>`
 }
