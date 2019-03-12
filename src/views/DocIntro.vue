@@ -17,7 +17,7 @@
                     </g>
                 </g>
             </svg>
-            <p>A UI library for Overwatch, built with Vue.js. You can download from <a href="https://www.npmjs.com/package/overwatch-ui">npm</a>.</p>
+            <p>Overwatch UI library for Web APP, built with Vue.js. Feel free to download from <a href="https://www.npmjs.com/package/overwatch-ui">npm</a>.</p>
 
             <h2>Get Started</h2>
             <p>Get excited? Go <router-link to="/start">here</router-link> to get started.</p>
