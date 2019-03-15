@@ -4706,7 +4706,6 @@ osenv@0, osenv@^0.1.4:
 overwatch-ui@^1.8.3:
   version "1.8.3"
   resolved "https://registry.yarnpkg.com/overwatch-ui/-/overwatch-ui-1.8.3.tgz#0408b4a2a45f81e5db37cf676c25dca9808f9884"
-  integrity sha512-J1aTqCdnbjDf/u9X7rUF2arDbSM1WZiAIF927e0drv+M5lXRiSGWlX2q4C4er5X7e6OzwEeCwiDjf6Lmgv5Lcw==
   dependencies:
     vue "^2.5.21"
 

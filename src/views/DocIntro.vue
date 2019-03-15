@@ -6,7 +6,7 @@
             <img class="badge" src="https://camo.githubusercontent.com/a50c2d62e9116a9b23e760dbb18d507074e21ba1/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f75692d2d6c69622d6f76657277617463682d4646433432392e737667" alt="badge">
             <img class="badge" src="https://camo.githubusercontent.com/169a1e3726438633a4ad90dc6b640346381d253b/68747470733a2f2f62616467652e667572792e696f2f6a732f6f76657277617463682d75692e737667" alt="badge">
             <img class="badge" src="https://camo.githubusercontent.com/c3bea802e4ffa728117492a608fe802a40aec586/68747470733a2f2f7472617669732d63692e6f72672f4861697869616e67363132332f6f76657277617463682d75692e7376673f6272616e63683d6d6173746572" alt="badge">
-            <img class="badge" src="https://img.shields.io/npm/dw/overwatch-ui.svg" alt="badge">
+            <img class="badge" src="https://img.shields.io/npm/dm/overwatch-ui.svg" alt="badge">
             <img class="badge" src="https://camo.githubusercontent.com/3ccf4c50a1576b0dd30b286717451fa56b783512/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4d49542d79656c6c6f772e737667" alt="badge">
 
             <svg class="home-header__logo" viewBox="0 7.8 64 25.9">
@@ -17,7 +17,7 @@
                     </g>
                 </g>
             </svg>
-            <p>A UI library for Overwatch, built with Vue.js. You can download from <a href="https://www.npmjs.com/package/overwatch-ui">npm</a>.</p>
+            <p>Overwatch UI library for Web APP, built with Vue.js. Feel free to download from <a href="https://www.npmjs.com/package/overwatch-ui">npm</a>.</p>
 
             <h2>Get Started</h2>
             <p>Get excited? Go <router-link to="/start">here</router-link> to get started.</p>
