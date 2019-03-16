@@ -46,6 +46,7 @@
         mounted() {
             DB.getMessages((messages) => {
                 this.messages = messages
+                console.log(this.messages)
 
                 this.initRandomColors(messages)
             })
