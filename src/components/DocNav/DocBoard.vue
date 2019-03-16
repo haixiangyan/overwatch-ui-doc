@@ -46,7 +46,6 @@
         mounted() {
             DB.getMessages((messages) => {
                 this.messages = messages
-                console.log(this.messages)
 
                 this.initRandomColors(messages)
             })
@@ -69,6 +68,9 @@
                 this.mainColor = this.getRandomColor()
             },
             getFormattedDate(dateObj) {
+                if (typeof dateObj !== 'object') {
+                    dateObj = new Date(dateObj)
+                }
                 const year = dateObj.getFullYear()
                 let month = dateObj.getMonth() + 1
                 let date = dateObj.getDate()
@@ -94,14 +96,13 @@
                 DB.addMessage(this.newMessage)
 
                 // Add new message locally
-                console.log(this.newMessage)
                 this.messages.push({
                     id: Date.now(),
                     attributes: {
                         content: this.newMessage
-                    }
+                    },
+                    createdAt: new Date()
                 })
-
                 this.newMessage = ''
 
                 this.scrollToBottom()
@@ -117,13 +118,13 @@
 
 <style scoped lang="scss">
 .green {
-    color: #8db974
+    color: #8db974 !important;
 }
 .blue {
-    color: #26AEE6;
+    color: #26AEE6 !important;
 }
 .orange {
-    color: #f1903f;
+    color: #f1903f !important;
 }
 .doc-board-wrapper {
     z-index: 2;
@@ -139,6 +140,7 @@
         z-index: 3;
         li {
             padding: 4px 0;
+            color: white;
         }
     }
 
