@@ -33,6 +33,9 @@
     box-sizing: border-box;
 }</code>
             </pre>
+
+            <h2>Statement</h2>
+            <p>This UI library is for learning purposes only, not for commercial use. Some design ideas are from Overwatch made by Blizzard Entertainment and the implementations are developed by me.</p>
         </doc-post>
     </div>
 </template>
