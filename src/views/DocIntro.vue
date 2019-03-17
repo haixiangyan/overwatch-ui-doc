@@ -34,10 +34,23 @@
 }</code>
             </pre>
 
-            <h2>Statement</h2>
+            <h2>Copyright Statement</h2>
             <p>
-                This UI library is for learning purposes only, not for commercial use.
-                Font Styles, Logo and some component designs are from Video Game Overwatch, made by Blizzard Entertainment
+                I love to play Overwatch, so I built this just for fun. But,
+                I am not sure if this will cause a Copyright problem of using font styles, logo, images made by Blizzard Entertainment.
+                So for now, I have to temporarily add a
+                <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0 Licence</a>
+                and some statements as follow:
+            </p>
+            <ul class="copyright">
+                <li>This UI library is for learning purposes only, not for commercial use.</li>
+                <li>Font Styles, Logo, images and some component designs are from Video Game Overwatch, made by Blizzard Entertainment.</li>
+                <li>This repo also follows<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0 Licence</a></li>
+            </ul>
+            <p>
+                I also really want my library to help out other front-end developers, so if you have any Copyright suggestions for me, feel free to place an Issue or contact me directly
+                <a href="haixiang6123@gmail.com">haixiang6123@gmail.com</a>
+                :)
             </p>
         </doc-post>
     </div>
@@ -53,6 +66,12 @@
 .doc-intro {
     .badge {
         margin-right: 5px;
+    }
+    .copyright {
+        li {
+            list-style-type: circle;
+            margin-bottom: 20px;
+        }
     }
 }
 </style>
