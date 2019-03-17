@@ -15,8 +15,6 @@
                 <transition name="fade">
                     <img v-if="isShowPayQR" class="payQR" src="../../assets/images/paypal.jpg" alt="payQR">
                 </transition>
-                <span class="icon">$</span>
-                <span class="text">ENDORSE AUTHOR</span>
             </div>
         </footer>
     </div>

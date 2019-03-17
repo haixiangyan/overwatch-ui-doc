@@ -35,7 +35,10 @@
             </pre>
 
             <h2>Statement</h2>
-            <p>This UI library is for learning purposes only, not for commercial use. Some design ideas are from Overwatch made by Blizzard Entertainment and the implementations are developed by me.</p>
+            <p>
+                This UI library is for learning purposes only, not for commercial use.
+                Font Styles, Logo and some component designs are from Video Game Overwatch, made by Blizzard Entertainment
+            </p>
         </doc-post>
     </div>
 </template>
