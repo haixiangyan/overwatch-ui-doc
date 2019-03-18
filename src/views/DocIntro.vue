@@ -44,13 +44,15 @@
             </p>
             <ul class="copyright">
                 <li>This UI library is for learning purposes only, not for commercial use.</li>
-                <li>Font Styles, Logo, images and some component designs are from Video Game Overwatch, made by Blizzard Entertainment.</li>
+                <li>
+                    Font Styles, Logo, images and some component designs are from Video Game Overwatch, made by Blizzard Entertainment.
+                    They are all used by Activision Blizzard for much of Overwatch's design. For components to match the Overwatch design, including the font is required.
+                </li>
                 <li>This repo also follows<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0 Licence</a></li>
             </ul>
             <p>
                 I also really want my library to help out other front-end developers, so if you have any Copyright suggestions for me, feel free to place an Issue or contact me directly
-                <a href="haixiang6123@gmail.com">haixiang6123@gmail.com</a>
-                :)
+                <a href="haixiang6123@gmail.com"> haixiang6123@gmail.com </a> :)
             </p>
         </doc-post>
     </div>
@@ -71,6 +73,7 @@
         li {
             list-style-type: circle;
             margin-bottom: 20px;
+            line-height: 1.5;
         }
     }
 }
