@@ -36,7 +36,7 @@
 
             <h2>Copyright Statement</h2>
             <p>
-                I love to play Overwatch, so I built this just for fuu but not for commercial purpose.
+                I love playing Overwatch, so I built this just for fun but not for commercial purpose.
                 <strong>
                     Please note: some images, logos are from Overwatch made by Blizzard Entertainment.
                     If you want to use this lib for commercial purpose, you have to obey those licences and place a proper licence for your project.
@@ -61,6 +61,7 @@
         li {
             list-style-type: circle;
             margin-bottom: 20px;
+            line-height: 1.5;
         }
     }
 }
