@@ -9,7 +9,7 @@
             </p>
 
             <p>
-                <strong>Before 5:15 is the dump Highlights XD, highlights show will be started at 5:15.</strong>
+                <strong>Before 5:15 is the dumb Highlights XD, highlights show will be started at 5:15.</strong>
             </p>
 
             <div ref="videoWrapper">

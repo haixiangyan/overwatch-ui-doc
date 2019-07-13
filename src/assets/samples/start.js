@@ -1,6 +1,6 @@
 export default {
 install: `
-$ yarn install overwatch-ui
+$ yarn add overwatch-ui
 
 or
 
